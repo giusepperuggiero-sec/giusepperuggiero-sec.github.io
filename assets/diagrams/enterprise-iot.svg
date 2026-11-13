@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 880" width="1600" height="880">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020203"/>
+      <stop offset="55%" stop-color="#050608"/>
+      <stop offset="100%" stop-color="#020203"/>
+    </linearGradient>
+    <radialGradient id="glowCenter" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#111318" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="cyberGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#17181E" stroke-width="0.7" stroke-opacity="0.50"/>
+      <circle cx="0" cy="0" r="0.9" fill="#64748B" fill-opacity="0.16"/>
+    </pattern>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="124%">
+      <feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#000000" flood-opacity="0.80"/>
+    </filter>
+    <filter id="softGlow" filterUnits="userSpaceOnUse" x="-40" y="-40" width="1680" height="960">
+      <feGaussianBlur stdDeviation="3.0" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arr-cyan" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#38BDF8"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#F43F5E"/>
+    </marker>
+    <marker id="arr-emerald" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#10B981"/>
+    </marker>
+    <marker id="arr-violet" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#A78BFA"/>
+    </marker>
+    <marker id="arr-amber" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#F59E0B"/>
+    </marker>
+    <marker id="arr-slate" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="880" fill="url(#bgGrad)"/>
+  <rect width="1600" height="880" fill="url(#cyberGrid)"/>
+  <rect width="1600" height="880" fill="url(#glowCenter)"/>
+
+  <rect x="28" y="18" width="1544" height="72" rx="12" fill="#07080B" fill-opacity="0.94" stroke="#222630" stroke-width="1.2"/>
+  <rect x="28" y="18" width="5" height="72" rx="2.5" fill="#38BDF8"/>
+  <rect x="46" y="29" width="147" height="22" rx="5" fill="#10151F" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1"/>
+  <text x="119.4" y="43.5" text-anchor="middle" fill="#7DD3FC" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="0.8">NETWORK SECURITY</text>
+  <text x="207" y="45.5" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">Enterprise IoT Attack &amp; Defense-in-Depth Architecture</text>
+  <text x="46" y="72.5" fill="#CBD5E1" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="12.5">Qualitative Network Topology &amp; Kill-Chain Flow (Flat 192.168.137.0/24 LAN)</text>
+
+
+  <g>
+    <rect x="28" y="114" width="248" height="682" rx="16" fill="#07080B" fill-opacity="0.72" stroke="#F43F5E" stroke-opacity="0.46" stroke-width="1.4" stroke-dasharray="7 5"/>
+    <rect x="46" y="103" width="145" height="22" rx="6" fill="#040507" stroke="#F43F5E" stroke-opacity="0.7" stroke-width="1"/>
+    <text x="58" y="117.5" fill="#FDA4AF" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="0.8">EXTERNAL NETWORK</text>
+  </g>
+
+  <g>
+    <rect x="556" y="114" width="1016" height="682" rx="16" fill="#07080B" fill-opacity="0.72" stroke="#38BDF8" stroke-opacity="0.46" stroke-width="1.4" stroke-dasharray="7 5"/>
+    <rect x="574" y="103" width="256" height="22" rx="6" fill="#040507" stroke="#38BDF8" stroke-opacity="0.7" stroke-width="1"/>
+    <text x="586" y="117.5" fill="#7DD3FC" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="0.8">CORPORATE LAN (192.168.137.0/24)</text>
+  </g>
+<path d="M 702 355 C 745 355, 745 256, 804 256" fill="none" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.5" stroke-dasharray="4 4"/>
+<path d="M 642 422 L 642 618 L 760 618" fill="none" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.5" stroke-dasharray="4 4"/>
+<path d="M 642 422 C 642 752, 1148 752, 1148 716" fill="none" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.5" stroke-dasharray="4 4"/>
+<path d="M 642 422 C 642 770, 1438 770, 1438 564" fill="none" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.5" stroke-dasharray="4 4"/>
+<g filter="url(#cardShadow)">
+    <rect x="52" y="244" width="200" height="220" rx="14" fill="#1C0C16" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="53.5" y="245.5" width="197" height="217" rx="12.5" fill="none" stroke="#FDA4AF" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="152.0" cy="328.5" r="40.3" fill="#3A1323" fill-opacity="0.76" stroke="#F43F5E" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(124.00,300.48) scale(2.333333)"><path d="M12.778 5.943s-1.97-.13-5.327.92c-3.42 1.07-5.36 2.587-5.36 2.587s5.098-2.847 10.852-3.008zm7.351 3.095l.257-.017s-1.468-1.78-4.278-2.648c1.58.642 2.954 1.493 4.021 2.665zm.42.74c.039-.068.166.217.263.337.004.024.01.039-.045.027-.005-.025-.013-.032-.013-.032s-.135-.08-.177-.137c-.041-.057-.049-.157-.028-.195zm3.448 8.479s.312-3.578-5.31-4.403a18.277 18.277 0 0 0-2.524-.187c-4.506.06-4.67-5.197-1.275-5.462 1.407-.116 3.087.643 4.73 1.408-.007.204.002.385.136.552.134.168.648.35.813.445.164.094.691.43 1.014.85.07-.131.654-.512.654-.512s-.14.003-.465-.119c-.326-.122-.713-.49-.722-.511-.01-.022-.015-.055.06-.07.059-.049-.072-.207-.13-.265-.058-.058-.445-.716-.454-.73-.009-.016-.012-.031-.04-.05-.085-.027-.46.04-.46.04s-.575-.283-.774-.893c.003.107-.099.224 0 .469-.3-.127-.558-.344-.762-.88-.12.305 0 .499 0 .499s-.707-.198-.82-.85c-.124.293 0 .469 0 .469s-1.153-.602-3.069-.61c-1.283-.118-1.55-2.374-1.43-2.754 0 0-1.85-.975-5.493-1.406-3.642-.43-6.628-.065-6.628-.065s6.45-.31 11.617 1.783c.176.785.704 2.094.989 2.723-.815.563-1.733 1.092-1.876 2.97-.143 1.878 1.472 3.53 3.474 3.58 1.9.102 3.214.116 4.806.942 1.52.84 2.766 3.4 2.89 5.703.132-1.709-.509-5.383-3.5-6.498 4.181.732 4.549 3.832 4.549 3.832zM12.68 5.663l-.15-.485s-2.484-.441-5.822-.204C3.37 5.211 0 6.38 0 6.38s6.896-1.735 12.68-.717Z" fill="#FDA4AF"/></g>
+    <text x="152.0" y="432.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Kali Linux</text>
+    <text x="152.0" y="450.0" text-anchor="middle" fill="#FDA4AF" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">Red Team · .104.10</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <polygon points="416,256 520,354 416,452 312,354" fill="#1C1408" fill-opacity="0.97" stroke="#F59E0B" stroke-opacity="0.86" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="416" cy="328" r="24.5" fill="#38270D" fill-opacity="0.72" stroke="#F59E0B" stroke-opacity="0.4" stroke-width="1"/>
+    <g transform="translate(398.00,310.00) scale(1.500000)" fill="none" stroke="#FCD34D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" /><path d="M12 9v6" /><path d="M16 15v6" /><path d="M16 3v6" /><path d="M3 15h18" /><path d="M3 9h18" /><path d="M8 15v6" /><path d="M8 3v6" /></g>
+    <text x="416" y="370" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Edge Firewall</text>
+    <text x="416" y="387" text-anchor="middle" fill="#FCD34D" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.2" font-weight="600">iptables NAT</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <circle cx="642" cy="354" r="66" fill="#0F1117" fill-opacity="0.97" stroke="#64748B" stroke-opacity="0.84" stroke-width="1.7"/>
+    <g transform="translate(624.00,318.00) scale(1.500000)" fill="none" stroke="#E2E8F0" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h.01" /><path d="M2 8.82a15 15 0 0 1 20 0" /><path d="M5 12.859a10 10 0 0 1 14 0" /><path d="M8.5 16.429a5 5 0 0 1 7 0" /></g>
+    <text x="642" y="374" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="12.6" font-weight="700">Access Point</text>
+    <text x="642" y="390" text-anchor="middle" fill="#E2E8F0" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="9.8" font-weight="600">Wi-Fi L2 Hub</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="804" y="154" width="408" height="196" rx="14" fill="#1C0C16" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="805.5" y="155.5" width="405" height="193" rx="12.5" fill="none" stroke="#FDA4AF" stroke-opacity="0.08" stroke-width="1"/>
+    <rect x="1103" y="163" width="99" height="19" rx="5" fill="#3A1323" stroke="#F43F5E" stroke-opacity="0.55" stroke-width="1"/>
+    <text x="1152.4" y="175.8" text-anchor="middle" fill="#FDA4AF" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="9.4" font-weight="700">:8080 / :2222</text>
+    <circle cx="936.0" cy="227.0" r="31.7" fill="#3A1323" fill-opacity="0.76" stroke="#F43F5E" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(914.00,204.96) scale(1.833333)"><path d="M17.61.455a3.41 3.41 0 0 0-3.41 3.41 3.41 3.41 0 0 0 3.41 3.41 3.41 3.41 0 0 0 3.41-3.41 3.41 3.41 0 0 0-3.41-3.41zM12.92.8C8.923.777 5.137 2.941 3.148 6.451a4.5 4.5 0 0 1 .26-.007 4.92 4.92 0 0 1 2.585.737A8.316 8.316 0 0 1 12.688 3.6 4.944 4.944 0 0 1 13.723.834 11.008 11.008 0 0 0 12.92.8zm9.226 4.994a4.915 4.915 0 0 1-1.918 2.246 8.36 8.36 0 0 1-.273 8.303 4.89 4.89 0 0 1 1.632 2.54 11.156 11.156 0 0 0 .559-13.089zM3.41 7.932A3.41 3.41 0 0 0 0 11.342a3.41 3.41 0 0 0 3.41 3.409 3.41 3.41 0 0 0 3.41-3.41 3.41 3.41 0 0 0-3.41-3.41zm2.027 7.866a4.908 4.908 0 0 1-2.915.358 11.1 11.1 0 0 0 7.991 6.698 11.234 11.234 0 0 0 2.422.249 4.879 4.879 0 0 1-.999-2.85 8.484 8.484 0 0 1-.836-.136 8.304 8.304 0 0 1-5.663-4.32zm11.405.928a3.41 3.41 0 0 0-3.41 3.41 3.41 3.41 0 0 0 3.41 3.41 3.41 3.41 0 0 0 3.41-3.41 3.41 3.41 0 0 0-3.41-3.41z" fill="#FDA4AF"/></g>
+    <circle cx="1008.0" cy="227.0" r="31.7" fill="#3A1323" fill-opacity="0.76" stroke="#F43F5E" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(986.00,204.96) scale(1.833333)"><path d="M13.983 11.078h2.119a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.119a.185.185 0 00-.185.185v1.888c0 .102.083.185.185.185m-2.954-5.43h2.118a.186.186 0 00.186-.186V3.574a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m0 2.716h2.118a.187.187 0 00.186-.186V6.29a.186.186 0 00-.186-.185h-2.118a.185.185 0 00-.185.185v1.887c0 .102.082.185.185.186m-2.93 0h2.12a.186.186 0 00.184-.186V6.29a.185.185 0 00-.185-.185H8.1a.185.185 0 00-.185.185v1.887c0 .102.083.185.185.186m-2.964 0h2.119a.186.186 0 00.185-.186V6.29a.185.185 0 00-.185-.185H5.136a.186.186 0 00-.186.185v1.887c0 .102.084.185.186.186m5.893 2.715h2.118a.186.186 0 00.186-.185V9.006a.186.186 0 00-.186-.186h-2.118a.185.185 0 00-.185.185v1.888c0 .102.082.185.185.185m-2.93 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.083.185.185.185m-2.964 0h2.119a.185.185 0 00.185-.185V9.006a.185.185 0 00-.184-.186h-2.12a.186.186 0 00-.186.186v1.887c0 .102.084.185.186.185m-2.92 0h2.12a.185.185 0 00.184-.185V9.006a.185.185 0 00-.184-.186h-2.12a.185.185 0 00-.184.185v1.888c0 .102.082.185.185.185M23.763 9.89c-.065-.051-.672-.51-1.954-.51-.338.001-.676.03-1.01.087-.248-1.7-1.653-2.53-1.716-2.566l-.344-.199-.226.327c-.284.438-.49.922-.612 1.43-.23.97-.09 1.882.403 2.661-.595.332-1.55.413-1.744.42H.751a.751.751 0 00-.75.748 11.376 11.376 0 00.692 4.062c.545 1.428 1.355 2.48 2.41 3.124 1.18.723 3.1 1.137 5.275 1.137.983.003 1.963-.086 2.93-.266a12.248 12.248 0 003.823-1.389c.98-.567 1.86-1.288 2.61-2.136 1.252-1.418 1.998-2.997 2.553-4.4h.221c1.372 0 2.215-.549 2.68-1.009.309-.293.55-.65.707-1.046l.098-.288Z" fill="#FDA4AF"/></g>
+    <circle cx="1080.0" cy="227.0" r="31.7" fill="#3A1323" fill-opacity="0.76" stroke="#F43F5E" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(1058.00,204.96) scale(1.833333)"><path d="M12.66 3.494c-.377.637-.544 2.114-.502 3.162l-.005.004c.036.946.165 1.816.372 2.615-3.096.767-6.466 2.795-8.352 4.754-.882-1.19-1.232-2.168-1.336-2.908-.131-.936.092-1.794.646-2.482.867-1.077 2.098-1.153 3.365-.94-.025.2.001.391.081.51.335.494 2.135.668 3.21.189-.793-1.112-2.4-1.654-2.844-1.437a.762.762 0 00-.335.359c-.438-.078-.873-.137-1.19-.134-1.117.008-1.971.398-2.61 1.193-.628.78-.882 1.747-.734 2.8.14.996.633 2.055 1.46 3.154-.138.147-.27.293-.398.436C1.473 17.023 0 19.44 0 19.842v.207h2.658l-.046-.246c-.15-.793.15-1.785.763-2.526.386-.465 1.024-.996 2.027-1.241.891.87 2.027 1.794 3.291 2.685h1.976v-.208a.678.678 0 00-.327-.577c-.312-.204-.794-.232-1.237-.081-.421-.47-.658-1.098-.709-1.877 4.287.38 8.388 2.11 13.015 4.528h2.546l.033-.167c.048-.237-.082-.556-.346-.851-.456-.51-1.349-.752-2.095-.734-.514-.612-3.342-3.591-3.507-3.765a9.626 9.626 0 002.673-2.847h1.388v-.298H20.89a9.81 9.81 0 00.223-.419h.989v-.299h-.845c.628-1.359.975-2.918.942-4.625l.003.002c-.002-.468-.147-2.445-.415-2.989-.726.276-2.047 1.17-2.346 2.084a14.557 14.557 0 00-4.463.056c-.237-.984-1.423-1.736-2.318-2.16zm.164.577c.211 1.148.593 1.869 1.42 2.223.734-.21 1.58-.34 2.448-.388l.717 1.571.46-1.585c.876.029 1.736.142 2.485.349.762-.554 1.057-1.4 1.218-2.138.202.86.178 2.717.18 2.717a9.883 9.883 0 01-.158 1.988l-.824.35.726.11a9.19 9.19 0 01-.198.714l-.703.205.56.201c-.094.253-.2.5-.314.738h-1.16v.299h1.008a8.788 8.788 0 01-.238.419h-.77v.298h.583a8.634 8.634 0 01-2.921 2.748c-1.334-.664-2.341-1.634-3.079-2.748h.446v-.298h-.636a9.195 9.195 0 01-.236-.419h.872v-.299h-1.026a10.12 10.12 0 01-.46-1.094l.522-.147-.659-.263c-.066-.215-.127-.43-.18-.646l1.015-.069-1.16-.615c-.282-1.563-.225-3.08.062-4.221zm2.946 2.97c-.89 0-1.24.909-1.255.948l.252.094c.012-.033.302-.773 1.003-.773.154 0 .262.062.34.195.182.314.152.933 0 1.58h-1.227v.269h1.159a5.679 5.679 0 01-.496 1.225l-.064.112 1.537.967-.865.57.148.224.967-.637 1.043.681.143-.228-.967-.598 1.518-.986v-.001c-.318-.47-.42-.872-.286-1.329h.108l1.167-.001.002-.268h-1.175c.216-.51.52-.968 1.602-.968v-.27c-.999 0-1.596.397-1.883 1.238h-2.154c.15-.672.177-1.333-.046-1.715a.63.63 0 00-.57-.33zm.55 2.313h2.126c-.095.304-.057.763.178 1.157h-2.737c.166-.334.32-.74.433-1.157zm-3.683.321c.155.515.344.997.562 1.451h-.91v.299h1.06c.075.142.153.282.233.419H12.29v.298h1.478c.91 1.416 2.14 2.499 3.534 3.318a9.45 9.45 0 00.456-.28l.362.39-.61.938 1.04-.474.606.652-1.019.776 1.403-.363 1.905 2.05.16-.014c1.007-.086 1.58.46 1.73.63.112.124.179.237.215.326h-2.036c-4.67-2.437-8.771-4.155-13.127-4.53.01-.607.117-1.293.324-2.058l-.4-.108c-.213.786-.325 1.497-.338 2.134-.454-.03-.91-.046-1.371-.046-.391 0-.747.036-1.072.1a14.771 14.771 0 01-1.09-1.21c.546-.57 1.19-1.123 1.893-1.643l.967.668-.316-1.128c.297-.2.603-.394.914-.58l1.434.73-.673-1.162c.198-.106.398-.21.598-.31l2.007 1.346-.66-1.952a15.32 15.32 0 012.034-.667zm3.492 1.105h2.22l-1.084.715zM4.153 14.675c.273.337.577.678.91 1.021a4.104 4.104 0 00-2.007 1.316c-.629.76-.962 1.762-.886 2.622H.495c.337-.728 1.677-2.833 3.658-4.959z" fill="#FDA4AF"/></g>
+    <text x="1008.0" y="318.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Ubuntu + Docker + Tomcat</text>
+    <text x="1008.0" y="336.0" text-anchor="middle" fill="#FDA4AF" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">Victim App Server · .137.200</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="760" y="516" width="252" height="196" rx="14" fill="#1C1408" fill-opacity="0.96" stroke="#F59E0B" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="761.5" y="517.5" width="249" height="193" rx="12.5" fill="none" stroke="#FCD34D" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="850.0" cy="589.0" r="31.7" fill="#38270D" fill-opacity="0.76" stroke="#F59E0B" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(828.00,566.96) scale(1.833333)"><path d="M7.53 14.994c.257-.027.46-.392.582-.555-.23-.163-.718.217-.582.555m11.815-1.747c-1.03 1.34-2.629 3.305-2.588 4.511.23-1.016 1.355-1.26 2.94-3.36.84-1.097 1.138-1.3 2.222-3.211.04-.054.718-.271.556-.474-1.315.474-2.575 1.829-3.13 2.534m4.43-5.054c-.325-.529-1.26-.773-1.991-.637-2.683.623-6.3-.23-7.276-.8-.068 0 .149-.528.013-.731.203-.136.271-.217.528-.15.461.204 1.03.123 1.49.055-.27-.528-.541-1.558-.948-2.154-.393.325-1.002.582-1.395.853-.732-1.978-3.211-2.33-5.217-1.192-.054.027-.108.027-.108.027s-.542-1.138-.772-1.667C7.38 2.217 6.757 2.8 6.486 2.8c-.542 0-1.192 0-1.72-.068 0 .922.352 1.992.392 2.792-.8.799-1.585 1.585-2.113 2.588-.583-.136-1.233-.23-1.843.027-.38.162-.827.636-.678 1.165.082.298.461.61 1.193.8-1.41 1.354-2.128 4.213-.84 5.202-.326.325-.719.637-.84 1.07-.15.57.176.773.569.854.731.136 1.26-.23 1.802-.555 1.138.677 1.91.623 3.238.69.135 0 .447.394.447.394s-.894-.095-1.355.04c-.623.19-1.165.772-.732 1.274.637.759 1.87 1.03 2.981.759.678.718.366 1.896-.772 2.37.99-.067 2.14-.731 2.263-2.1.027-.257-.122-.677-.325-.88-.136-.136-.312-.325-.312-.325s.555-1.057-.596-1.653c.46-.095 1.328-.461 1.328-.461s.352.406.663.46c.34.055.732-.135.868-.46.19-.488-.393-.867-.393-.867l.46-.732s.407.38.583.678c.57.948.678 1.896 1.206 2.831.27.461.732.84 1.192 1.044a2.5 2.5 0 0 0 1.274.08c.745-.135 1.341-.378 1.761-.636 2.954-1.761 5.027-4.065 6.83-7.33.446-.88 1.422-2.602.758-3.658m-8.4-3.943s.176.311.27.528c.136.325.394.962.394.962l-.529-.095-.501-.352s-.068.257-.352.474c-.136-.393.149-.582-.244-1.016.311-.203.962-.501.962-.501m-7.29 15.853c.122.704-.501 1.422-.935 1.693.38-.582.746-.84.312-2.046-.176-.474-.596-.813-1.03-1.097-.135-.095-.311-.15-.515-.203-.216-.055-.46.108-.664.311 0 0 .624.312 1.166.407.311.406-.312.42-.312.42-.068.067-1.788-.176-1.68-1.016.04-.326.69-.935 1.992-.434.731.284 1.558 1.3 1.666 1.965m-.732-2.48c.326.149.326.528.326.867 0 .068-.068.068-.136.136-.203-.366-.542-.542-.867-.8-.068-.054-.108-.081-.04-.149.216-.203.487-.176.717-.054m2.426-1.138c-.122.46-.556.38-.596.149-.04-.203.217-.271.298-.366.068.04.311.149.298.217m2.507 1.22c-.719-2.141-2.697-4.106-3.659-4.675-.054-.027-.176.149-.176.149s.867.813 1.003 1.409c.135.528-.163 1.097-.501 1.49-1.328 1.26-3.117 1.016-4.824.895-.528-.041-1.314-.393-.908-1.193-.596.461-1.517 1.328-2.195 1.057-.135-.054-.325-.38-.19-.69.244-.516 1.057-1.315 1.762-1.667.04-.068-.054-.204-.312-.082-.27.122-.8.637-1.016.529-1.206-.597-.434-2.819-.04-3.55.487-.908 1.124-1.07 1.788-1.274-.786-.135-1.396-.217-1.789-.623-.203-.271-.108-.474.095-.732a1.56 1.56 0 0 1 .705-.42c.27-.081.501-.04.759.014.65.135.69.474 1.016.406-.068-.149-.407-.46-.339-.596a5.95 5.95 0 0 1 1.572-1.978c.095-.082.162-.095.298-.095.203.068.122.27.244.46.203.34.745.326 1.07.068.664-.528.88-1.517 1.152-2.317 0-.067.217-.487-.15-.365-.175.731-.46 1.327-.866 1.991-.203.271-.434.502-.76.38-.067-.068-.202-.109-.23-.312-.135-.948-.325-2.723-.325-2.723s.922.122 1.274.04c.203-.04.664-.596 1.125-.786.325.461.636.908.921 1.355 1.328-.596 2.886-1.07 4.2-.08.461.392.962.893 1.111 1.34.122.34.19 1.166.109 1.789 1.124.596 2.235.935 3.495 1.179.556.108.99.162 1.532.203.27.027.907.108 2.167-.108-2.588.528-4.674 2.195-6.422 4.213-.867.99-2.412 3.415-2.615 4.296-.081.365-.095.555-.081 1.002Zm10.568-6.572c-.434 1.273-1.545 2.954-2.696 4.2-1.07 1.165-4.106 3.956-6.247 3.835-1.002-.055-1.395-1.084-1.03-2.236.678-2.181 3.7-6.612 7.534-8.197.8-.325 2.195-.474 2.52-.054.434.61.19 1.653-.08 2.452Zm-2.914-.068c.177-.339.38-.474.448-.745.068-.46.88-.163.921-.772-1.382.216-3.13 1.883-4.281 3.306-1.193 1.463-2.886 3.577-2.724 5.121.271-1.273.746-.745 2.683-3.103 1.057-1.273 2.141-2.303 2.954-3.807m-6.504-5.569c-.217-.23-.38.325-.501.23-.42-.311.23-1.409-.583-1.544-.664-.122-1.151.637-1.585 1.07.203.65.962-1.165 1.49-.636.217.216.204.677.312.935-.38-.136-.8.447-.637.934.054.15.23.258.312.176.149-.094-.081-.176-.095-.216a.61.61 0 0 1 .176-.637c.176-.15.15.095.081.311-.04.136-.149.217-.121.312.243.203.42-.623.42-.623s.528.217.731-.312m.082.474c-.068.068-.163.109-.19.244-.027.15-.163.34-.095.488.285.15.583-.298.501-.582 0-.082-.067-.23-.216-.15m.067.34c-.013.121-.027.108-.081.203s-.081.013-.095-.068.014-.095.054-.23c.027-.109.068-.095.082-.095.067 0 .054.067.04.19" fill="#FCD34D"/></g>
+    <circle cx="922.0" cy="589.0" r="31.7" fill="#38270D" fill-opacity="0.76" stroke="#F59E0B" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(900.00,566.96) scale(1.833333)" fill="none" stroke="#FCD34D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></g>
+    <text x="886.0" y="680.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Snort + Honeypot</text>
+    <text x="886.0" y="698.0" text-anchor="middle" fill="#FCD34D" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">NIDS &amp; Pentbox · .137.201</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <polygon points="1092,514 1208,514 1258,614 1208,714 1092,714 1042,614" fill="#081C17" fill-opacity="0.97" stroke="#10B981" stroke-opacity="0.86" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="1150" cy="592" r="32.6" fill="#0E332A" fill-opacity="0.72" stroke="#10B981" stroke-opacity="0.4" stroke-width="1"/>
+    <g transform="translate(1126.00,568.00) scale(2.000000)"><path d="M18.087 6.146c-.3 0-.607.017-.907.069-2.532.367-4.23 2.239-5.18 3.674-.95-1.435-2.648-3.307-5.18-3.674a6.49 6.49 0 0 0-.907-.069C2.648 6.146 0 8.77 0 12s2.656 5.854 5.913 5.854c.3 0 .607-.017.916-.069 2.531-.376 4.23-2.247 5.18-3.683.949 1.436 2.647 3.307 5.18 3.683.299.043.607.069.915.069C21.344 17.854 24 15.23 24 12s-2.656-5.854-5.913-5.854zM6.53 15.734a3.837 3.837 0 0 1-.625.043c-2.148 0-3.889-1.7-3.889-3.777 0-2.085 1.749-3.777 3.898-3.777.208 0 .416.017.624.043 2.39.35 3.847 2.768 4.347 3.734-.508.974-1.974 3.384-4.355 3.734zm11.558.043c-.208 0-.416-.017-.624-.043-2.39-.35-3.856-2.768-4.347-3.734.491-.966 1.957-3.384 4.347-3.734.208-.026.416-.043.624-.043 2.149 0 3.89 1.7 3.89 3.777 0 2.085-1.75 3.777-3.89 3.777zm1.65-4.404v1.134h-1.205v1.182h-1.156v-1.182H16.17v-1.134h1.206V10.19h1.156v1.183h1.206zM4.246 12.498H7.82v-1.125H4.245v1.125z" fill="#6EE7B7"/></g>
+    <text x="1150" y="644" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="700">Portenta H7</text>
+    <text x="1150" y="661" text-anchor="middle" fill="#6EE7B7" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.4" font-weight="600">PIR + Mic · .137.197</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="1326" y="348" width="222" height="216" rx="14" fill="#140F28" fill-opacity="0.96" stroke="#A78BFA" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="1327.5" y="349.5" width="219" height="213" rx="12.5" fill="none" stroke="#DDD6FE" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="1437.0" cy="430.6" r="38.9" fill="#291E4D" fill-opacity="0.76" stroke="#A78BFA" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(1410.00,403.56) scale(0.105469)"><path fill="#DDD6FE" d="m297.4 309-63.8-206.3h-49.7L120.1 309 57.2 102.7H0l91.1 300.8h47.3l70.4-217.9 70.4 217.9h46.4l92-300.8h-57.2z"/><circle cx="464.8" cy="362" r="47.2" fill="#A78BFA"/></g>
+    <text x="1437.0" y="532.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Wazuh SIEM</text>
+    <text x="1437.0" y="550.0" text-anchor="middle" fill="#DDD6FE" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">Correlation · .137.240</text>
+  </g>
+<path d="M 252 326 L 340 326" fill="none" stroke="#F43F5E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+  <rect x="252.5" y="285.5" width="83.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="294.0" y="299.5" text-anchor="middle" fill="#FDA4AF" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">DNAT :8080</text>
+<path d="M 492 326 L 578 326" fill="none" stroke="#F43F5E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+<path d="M 678 296 C 718 225, 748 212, 802 212" fill="none" stroke="#F43F5E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+  <rect x="660.2" y="201.5" width="131.5" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.72" stroke-width="1"/>
+  <rect x="664.2" y="205.0" width="18" height="14" rx="3" fill="#F43F5E"/>
+  <text x="673.2" y="215.0" text-anchor="middle" fill="#030405" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="9.5" font-weight="800">1</text>
+  <text x="687.2" y="215.5" fill="#FDA4AF" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">RCE (Web Shell)</text>
+<path d="M 802 288 C 752 288, 738 354, 708 354" fill="none" stroke="#F43F5E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+<path d="M 578 382 L 494 382" fill="none" stroke="#F43F5E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+<path d="M 340 382 L 252 382" fill="none" stroke="#F43F5E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+  <rect x="242.8" y="401.5" width="102.5" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="294.0" y="415.5" text-anchor="middle" fill="#FDA4AF" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Reverse Shell</text>
+<path d="M 886 350 L 886 514" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-cyan)" filter="url(#softGlow)"/>
+  <rect x="839.8" y="421.5" width="92.5" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#38BDF8" stroke-opacity="0.72" stroke-width="1"/>
+  <rect x="843.8" y="425.0" width="18" height="14" rx="3" fill="#38BDF8"/>
+  <text x="852.8" y="435.0" text-anchor="middle" fill="#030405" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="9.5" font-weight="800">2</text>
+  <text x="866.8" y="435.5" fill="#7DD3FC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Deception</text>
+<path d="M 1150 350 L 1150 512" fill="none" stroke="#F43F5E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+  <rect x="1081.0" y="421.5" width="138.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.72" stroke-width="1"/>
+  <rect x="1085.0" y="425.0" width="18" height="14" rx="3" fill="#F43F5E"/>
+  <text x="1094.0" y="435.0" text-anchor="middle" fill="#030405" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="9.5" font-weight="800">3</text>
+  <text x="1108.0" y="435.5" fill="#FDA4AF" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">ARP Spoof &amp; MitM</text>
+<path d="M 1094 350 C 1072 418, 1004 470, 962 514" fill="none" stroke="#F43F5E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+<path d="M 1012 614 L 1040 614" fill="none" stroke="#38BDF8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-cyan)" marker-start="url(#arr-cyan)" filter="url(#softGlow)"/>
+<path d="M 1212 252 C 1380 252, 1437 284, 1437 346" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-cyan)" filter="url(#softGlow)"/>
+  <rect x="1299.8" y="241.5" width="128.5" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#38BDF8" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="1364.0" y="255.5" text-anchor="middle" fill="#7DD3FC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">LOG (Agent + FIM)</text>
+<path d="M 1258 614 L 1386 614 L 1386 566" fill="none" stroke="#10B981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-emerald)" filter="url(#softGlow)"/>
+  <rect x="1274.2" y="631.5" width="115.5" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#10B981" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="1332.0" y="645.5" text-anchor="middle" fill="#6EE7B7" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Syslog UDP :514</text>
+<path d="M 886 712 L 886 744 L 1468 744 L 1468 566" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-cyan)" filter="url(#softGlow)"/>
+  <rect x="1099.8" y="733.5" width="154.5" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#38BDF8" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="1177.0" y="747.5" text-anchor="middle" fill="#7DD3FC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">LOG (Snort + Pentbox)</text>
+<rect x="28" y="820" width="1544" height="40" rx="10" fill="#07080B" fill-opacity="0.94" stroke="#222630" stroke-width="1.1"/>
+  <text x="46" y="844" fill="#64748B" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="0.9">LEGEND</text>
+  <g transform="translate(108, 828)"><rect width="194" height="24" rx="6" fill="#0B0D12" stroke="#F43F5E" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#F43F5E"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Attack Flow &amp; Kill Chain</text></g>
+  <g transform="translate(312, 828)"><rect width="166" height="24" rx="6" fill="#0B0D12" stroke="#F59E0B" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#F59E0B"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Firewall &amp; Deception</text></g>
+  <g transform="translate(488, 828)"><rect width="145" height="24" rx="6" fill="#0B0D12" stroke="#10B981" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#10B981"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Physical IoT Node</text></g>
+  <g transform="translate(643, 828)"><rect width="194" height="24" rx="6" fill="#0B0D12" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#38BDF8"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">LAN L2 &amp; Agent Telemetry</text></g>
+  <g transform="translate(847, 828)"><rect width="180" height="24" rx="6" fill="#0B0D12" stroke="#A78BFA" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#A78BFA"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Wazuh SIEM Correlation</text></g>
+  <text x="1554" y="844" text-anchor="end" fill="#94A3B8" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.5">repo: enterprise-iot-red-blue-siem | docs/diagrams/architecture.svg</text>
+</svg>

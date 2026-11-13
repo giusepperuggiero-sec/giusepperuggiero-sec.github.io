@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 880" width="1600" height="880">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020203"/>
+      <stop offset="55%" stop-color="#050608"/>
+      <stop offset="100%" stop-color="#020203"/>
+    </linearGradient>
+    <radialGradient id="glowCenter" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#111318" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="cyberGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#17181E" stroke-width="0.7" stroke-opacity="0.50"/>
+      <circle cx="0" cy="0" r="0.9" fill="#64748B" fill-opacity="0.16"/>
+    </pattern>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="124%">
+      <feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#000000" flood-opacity="0.80"/>
+    </filter>
+    <filter id="softGlow" filterUnits="userSpaceOnUse" x="-40" y="-40" width="1680" height="960">
+      <feGaussianBlur stdDeviation="3.0" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arr-cyan" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#38BDF8"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#F43F5E"/>
+    </marker>
+    <marker id="arr-emerald" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#10B981"/>
+    </marker>
+    <marker id="arr-violet" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#A78BFA"/>
+    </marker>
+    <marker id="arr-amber" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#F59E0B"/>
+    </marker>
+    <marker id="arr-slate" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="880" fill="url(#bgGrad)"/>
+  <rect width="1600" height="880" fill="url(#cyberGrid)"/>
+  <rect width="1600" height="880" fill="url(#glowCenter)"/>
+
+  <rect x="28" y="18" width="1544" height="72" rx="12" fill="#07080B" fill-opacity="0.94" stroke="#222630" stroke-width="1.2"/>
+  <rect x="28" y="18" width="5" height="72" rx="2.5" fill="#38BDF8"/>
+  <rect x="46" y="29" width="130" height="22" rx="5" fill="#10151F" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1"/>
+  <text x="111.0" y="43.5" text-anchor="middle" fill="#7DD3FC" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="0.8">XAI FOR IoMT</text>
+  <text x="190" y="45.5" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">Privacy-Preserving IoMT IDS &amp; Explainable AI Architecture</text>
+  <text x="46" y="72.5" fill="#CBD5E1" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="12.5">Qualitative End-to-End Pipeline (Zero-Payload Headers -&gt; Model Benchmark -&gt; Dual XAI -&gt; Causal Verification)</text>
+
+
+  <g>
+    <rect x="28" y="114" width="294" height="682" rx="16" fill="#07080B" fill-opacity="0.72" stroke="#38BDF8" stroke-opacity="0.46" stroke-width="1.4" stroke-dasharray="7 5"/>
+    <rect x="46" y="103" width="177" height="22" rx="6" fill="#040507" stroke="#38BDF8" stroke-opacity="0.7" stroke-width="1"/>
+    <text x="58" y="117.5" fill="#7DD3FC" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="0.8">1. ZERO-PAYLOAD INPUT</text>
+  </g>
+
+  <g>
+    <rect x="384" y="114" width="386" height="682" rx="16" fill="#07080B" fill-opacity="0.72" stroke="#10B981" stroke-opacity="0.46" stroke-width="1.4" stroke-dasharray="7 5"/>
+    <rect x="402" y="103" width="156" height="22" rx="6" fill="#040507" stroke="#10B981" stroke-opacity="0.7" stroke-width="1"/>
+    <text x="414" y="117.5" fill="#6EE7B7" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="0.8">2. MODEL BENCHMARK</text>
+  </g>
+
+  <g>
+    <rect x="836" y="114" width="340" height="682" rx="16" fill="#07080B" fill-opacity="0.72" stroke="#A78BFA" stroke-opacity="0.46" stroke-width="1.4" stroke-dasharray="7 5"/>
+    <rect x="854" y="103" width="156" height="22" rx="6" fill="#040507" stroke="#A78BFA" stroke-opacity="0.7" stroke-width="1"/>
+    <text x="866" y="117.5" fill="#DDD6FE" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="0.8">3. XAI EXPLANATION</text>
+  </g>
+
+  <g>
+    <rect x="1240" y="114" width="332" height="682" rx="16" fill="#07080B" fill-opacity="0.72" stroke="#F43F5E" stroke-opacity="0.46" stroke-width="1.4" stroke-dasharray="7 5"/>
+    <rect x="1258" y="103" width="145" height="22" rx="6" fill="#040507" stroke="#F43F5E" stroke-opacity="0.7" stroke-width="1"/>
+    <text x="1270" y="117.5" fill="#FDA4AF" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="0.8">4. CAUSAL AUDIT</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="52" y="174" width="246" height="234" rx="14" fill="#091929" fill-opacity="0.96" stroke="#38BDF8" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="53.5" y="175.5" width="243" height="231" rx="12.5" fill="none" stroke="#7DD3FC" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="175.0" cy="265.2" r="38.9" fill="#0F2942" fill-opacity="0.76" stroke="#38BDF8" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(148.00,238.20) scale(2.250000)"><path d="m2.95 0c-1.62 0-2.95 1.32-2.95 2.95v18.1c0 1.63 1.32 2.95 2.95 2.95h18.1c1.62 0 2.95-1.32 2.95-2.95v-18.1c-.00024-1.63-1.32-2.95-2.95-2.95zm0 1.09h18.1c1.04 0 1.85.818 1.85 1.86v14h-5.27c-.335-.796-2.57-6.47.283-10.9a.516.517 0 0 0-.443-.794c-5.24.0827-8.2 3.19-9.74 6.21-1.35 2.64-1.63 4.91-1.69 5.53h-4.95v-14c0-1.04.817-1.86 1.85-1.86zm13.6 5.24c-2.62 5.24.248 11.4.248 11.4a.516.517 0 0 0 .469.301h5.62v3.05c0 1.04-.817 1.86-1.85 1.86h-18.1c-1.04 0-1.85-.818-1.85-1.86v-3.05h5.39a.516.517 0 0 0 .514-.477s.226-2.8 1.66-5.62c1.34-2.62 3.67-5.17 7.91-5.57z" fill="#7DD3FC"/></g>
+    <text x="175.0" y="376.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">CICIoMT2024 Flows</text>
+    <text x="175.0" y="394.0" text-anchor="middle" fill="#7DD3FC" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">Encrypted Traffic Capture</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="52" y="494" width="246" height="234" rx="14" fill="#0F1117" fill-opacity="0.96" stroke="#64748B" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="53.5" y="495.5" width="243" height="231" rx="12.5" fill="none" stroke="#E2E8F0" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="139.0" cy="585.2" r="31.7" fill="#1B1F2A" fill-opacity="0.76" stroke="#64748B" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(117.00,563.20) scale(1.833333)"><path d="M11.858 0c-.978.005-1.913.088-2.736.234C6.7.662 6.26 1.558 6.26 3.21v2.182h5.725v.727H4.111c-1.664 0-3.121 1-3.577 2.903-.526 2.181-.549 3.542 0 5.82.407 1.694 1.379 2.902 3.043 2.902h1.969v-2.616c0-1.89 1.635-3.557 3.576-3.557h5.72c1.591 0 2.862-1.31 2.862-2.91v-5.45c0-1.553-1.309-2.718-2.863-2.977A18 18 0 0 0 11.858 0M8.762 1.755c.591 0 1.074.491 1.074 1.095 0 .601-.483 1.087-1.074 1.087A1.08 1.08 0 0 1 7.688 2.85c0-.604.48-1.095 1.074-1.095m9.656 4.364v2.543c0 1.971-1.671 3.63-3.577 3.63H9.122c-1.566 0-2.862 1.34-2.862 2.91v5.452c0 1.551 1.349 2.464 2.862 2.91 1.813.532 3.55.628 5.72 0 1.44-.418 2.862-1.258 2.862-2.91V18.47h-5.719v-.727h8.582c1.664 0 2.284-1.16 2.862-2.903.598-1.793.573-3.518 0-5.819-.41-1.656-1.196-2.903-2.862-2.903zm-3.216 13.807a1.08 1.08 0 0 1 1.074 1.088c0 .604-.48 1.094-1.074 1.094-.592 0-1.075-.49-1.075-1.094 0-.601.483-1.088 1.075-1.088" fill="#E2E8F0"/></g>
+    <circle cx="211.0" cy="585.2" r="31.7" fill="#1B1F2A" fill-opacity="0.76" stroke="#64748B" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(189.00,563.20) scale(1.833333)"><path d="M16.922 0h2.623v18.104h-2.623zm-4.126 12.94h2.623v2.57h-2.623zm0-7.037h2.623v5.446h-2.623zm0 11.197h2.623v5.446h-2.623zM4.456 5.896h2.622V24H4.455zm4.213 2.559h2.623v2.57H8.67zm0 4.151h2.623v5.447H8.67zm0-11.187h2.623v5.446H8.67Z" fill="#E2E8F0"/></g>
+    <text x="175.0" y="696.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Header Tensor Prep</text>
+    <text x="175.0" y="714.0" text-anchor="middle" fill="#E2E8F0" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">First T L3/L4 Headers</text>
+  </g>
+<path d="M 175 408 L 175 492" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-cyan)" filter="url(#softGlow)"/>
+  <rect x="133.5" y="439.5" width="83.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#38BDF8" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="175.0" y="453.5" text-anchor="middle" fill="#7DD3FC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">No Payload</text>
+<g filter="url(#cardShadow)">
+    <rect x="412" y="154" width="330" height="182" rx="14" fill="#1C1408" fill-opacity="0.96" stroke="#F59E0B" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="413.5" y="155.5" width="327" height="179" rx="12.5" fill="none" stroke="#FCD34D" stroke-opacity="0.08" stroke-width="1"/>
+    <rect x="676" y="163" width="56" height="19" rx="5" fill="#38270D" stroke="#F59E0B" stroke-opacity="0.55" stroke-width="1"/>
+    <text x="704.0" y="175.8" text-anchor="middle" fill="#FCD34D" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="9.4" font-weight="700">CNN</text>
+    <circle cx="577.0" cy="220.2" r="31.7" fill="#38270D" fill-opacity="0.76" stroke="#F59E0B" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(555.00,198.24) scale(1.833333)"><path d="M12.005 0L4.952 7.053a9.865 9.865 0 000 14.022 9.866 9.866 0 0014.022 0c3.984-3.9 3.986-10.205.085-14.023l-1.744 1.743c2.904 2.905 2.904 7.634 0 10.538s-7.634 2.904-10.538 0-2.904-7.634 0-10.538l4.647-4.646.582-.665zm3.568 3.899a1.327 1.327 0 00-1.327 1.327 1.327 1.327 0 001.327 1.328A1.327 1.327 0 0016.9 5.226 1.327 1.327 0 0015.573 3.9z" fill="#FCD34D"/></g>
+    <text x="577.0" y="304.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Lopez17CNN</text>
+    <text x="577.0" y="322.0" text-anchor="middle" fill="#FCD34D" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">2D Spatio-Temporal Baseline</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="412" y="366" width="330" height="182" rx="14" fill="#140F28" fill-opacity="0.96" stroke="#A78BFA" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="413.5" y="367.5" width="327" height="179" rx="12.5" fill="none" stroke="#DDD6FE" stroke-opacity="0.08" stroke-width="1"/>
+    <rect x="676" y="375" width="56" height="19" rx="5" fill="#291E4D" stroke="#A78BFA" stroke-opacity="0.55" stroke-width="1"/>
+    <text x="704.0" y="387.8" text-anchor="middle" fill="#DDD6FE" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="9.4" font-weight="700">TRANS</text>
+    <circle cx="577.0" cy="432.2" r="31.7" fill="#291E4D" fill-opacity="0.76" stroke="#A78BFA" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(555.00,410.24) scale(1.833333)" fill="none" stroke="#DDD6FE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 13h4" /><path d="M12 18h6a2 2 0 012 2v1" /><path d="M12 8h8" /><path d="M12 9a4.17 4.17 0 01-3 4" /><path d="M16 8V5a2 2 0 012-2" /><path d="M6 18a4 4 0 01-2-7.465" /><path d="M6.004 5.125a4 4 0 00-2.526 5.77" /><path d="M6.294 6.294A3 3 0 1112 5v13a4 4 0 11-7.967-.518" /><circle cx="16" cy="13" r="0.5" fill="currentColor" /><circle cx="18" cy="3" r="0.5" fill="currentColor" /><circle cx="20" cy="21" r="0.5" fill="currentColor" /><circle cx="20" cy="8" r="0.5" fill="currentColor" /></g>
+    <text x="577.0" y="516.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">BiflowTransformer</text>
+    <text x="577.0" y="534.0" text-anchor="middle" fill="#DDD6FE" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">Pure Sequence Attention</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="412" y="578" width="330" height="182" rx="14" fill="#081C17" fill-opacity="0.96" stroke="#10B981" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="413.5" y="579.5" width="327" height="179" rx="12.5" fill="none" stroke="#6EE7B7" stroke-opacity="0.08" stroke-width="1"/>
+    <rect x="676" y="587" width="56" height="19" rx="5" fill="#0E332A" stroke="#10B981" stroke-opacity="0.55" stroke-width="1"/>
+    <text x="704.0" y="599.8" text-anchor="middle" fill="#6EE7B7" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="9.4" font-weight="700">HYBRID</text>
+    <circle cx="542.0" cy="644.2" r="30.2" fill="#0E332A" fill-opacity="0.76" stroke="#10B981" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(521.00,623.24) scale(1.750000)" fill="none" stroke="#6EE7B7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v2" /><path d="M12 2v2" /><path d="M17 20v2" /><path d="M17 2v2" /><path d="M2 12h2" /><path d="M2 17h2" /><path d="M2 7h2" /><path d="M20 12h2" /><path d="M20 17h2" /><path d="M20 7h2" /><path d="M7 20v2" /><path d="M7 2v2" /><rect x="4" y="4" width="16" height="16" rx="2" /><rect x="8" y="8" width="8" height="8" rx="1" /></g>
+    <circle cx="612.0" cy="644.2" r="30.2" fill="#0E332A" fill-opacity="0.76" stroke="#10B981" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(591.00,623.24) scale(1.750000)"><path d="M12.005 0L4.952 7.053a9.865 9.865 0 000 14.022 9.866 9.866 0 0014.022 0c3.984-3.9 3.986-10.205.085-14.023l-1.744 1.743c2.904 2.905 2.904 7.634 0 10.538s-7.634 2.904-10.538 0-2.904-7.634 0-10.538l4.647-4.646.582-.665zm3.568 3.899a1.327 1.327 0 00-1.327 1.327 1.327 1.327 0 001.327 1.328A1.327 1.327 0 0016.9 5.226 1.327 1.327 0 0015.573 3.9z" fill="#6EE7B7"/></g>
+    <text x="577.0" y="728.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">MedDefenderTransformer</text>
+    <text x="577.0" y="746.0" text-anchor="middle" fill="#6EE7B7" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">Lightweight Hybrid + MHAN</text>
+  </g>
+<path d="M 298 610 C 350 610, 344 245, 410 245" fill="none" stroke="#F59E0B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-amber)" filter="url(#softGlow)"/>
+<path d="M 298 610 C 352 610, 348 457, 410 457" fill="none" stroke="#A78BFA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-violet)" filter="url(#softGlow)"/>
+  <rect x="300.8" y="521.5" width="102.5" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#A78BFA" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="352.0" y="535.5" text-anchor="middle" fill="#DDD6FE" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Header Matrix</text>
+<path d="M 298 640 C 352 640, 356 669, 410 669" fill="none" stroke="#10B981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-emerald)" filter="url(#softGlow)"/>
+<g filter="url(#cardShadow)">
+    <rect x="866" y="204" width="280" height="218" rx="14" fill="#140F28" fill-opacity="0.96" stroke="#A78BFA" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="867.5" y="205.5" width="277" height="215" rx="12.5" fill="none" stroke="#DDD6FE" stroke-opacity="0.08" stroke-width="1"/>
+    <rect x="1062" y="213" width="74" height="19" rx="5" fill="#291E4D" stroke="#A78BFA" stroke-opacity="0.55" stroke-width="1"/>
+    <text x="1099.2" y="225.8" text-anchor="middle" fill="#DDD6FE" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="9.4" font-weight="700">INTRINSIC</text>
+    <circle cx="1006.0" cy="287.5" r="36.0" fill="#291E4D" fill-opacity="0.76" stroke="#A78BFA" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(981.00,262.52) scale(2.083333)" fill="none" stroke="#DDD6FE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2" /><path d="M17 3h2a2 2 0 0 1 2 2v2" /><path d="M21 17v2a2 2 0 0 1-2 2h-2" /><path d="M7 21H5a2 2 0 0 1-2-2v-2" /><circle cx="12" cy="12" r="1" /><path d="M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0" /></g>
+    <text x="1006.0" y="390.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">By-Design Attention</text>
+    <text x="1006.0" y="408.0" text-anchor="middle" fill="#DDD6FE" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">Rollout &amp; MHAN Maps</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="866" y="498" width="280" height="218" rx="14" fill="#1C0C16" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="867.5" y="499.5" width="277" height="215" rx="12.5" fill="none" stroke="#FDA4AF" stroke-opacity="0.08" stroke-width="1"/>
+    <rect x="1069" y="507" width="67" height="19" rx="5" fill="#3A1323" stroke="#F43F5E" stroke-opacity="0.55" stroke-width="1"/>
+    <text x="1102.4" y="519.8" text-anchor="middle" fill="#FDA4AF" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="9.4" font-weight="700">POST-HOC</text>
+    <circle cx="1006.0" cy="581.5" r="36.0" fill="#3A1323" fill-opacity="0.76" stroke="#F43F5E" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(981.00,556.52) scale(2.083333)" fill="none" stroke="#FDA4AF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19.07 4.93A10 10 0 0 0 6.99 3.34" /><path d="M4 6h.01" /><path d="M2.29 9.62A10 10 0 1 0 21.31 8.35" /><path d="M16.24 7.76A6 6 0 1 0 8.23 16.67" /><path d="M12 18h.01" /><path d="M17.99 11.66A6 6 0 0 1 15.77 16.67" /><circle cx="12" cy="12" r="2" /><path d="m13.41 10.59 5.66-5.66" /></g>
+    <text x="1006.0" y="684.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">GradientSHAP</text>
+    <text x="1006.0" y="702.0" text-anchor="middle" fill="#FDA4AF" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">Expected Gradients Baseline</text>
+  </g>
+<path d="M 742 426 C 786 426, 782 282, 864 282" fill="none" stroke="#A78BFA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-violet)" filter="url(#softGlow)"/>
+  <rect x="756.0" y="253.5" width="96.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#A78BFA" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="804.0" y="267.5" text-anchor="middle" fill="#DDD6FE" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Forward Maps</text>
+<path d="M 742 638 C 808 638, 800 342, 864 342" fill="none" stroke="#10B981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-emerald)" filter="url(#softGlow)"/>
+<path d="M 742 252 C 810 252, 798 566, 864 566" fill="none" stroke="#F59E0B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-amber)" filter="url(#softGlow)"/>
+<path d="M 742 486 C 796 486, 798 610, 864 610" fill="none" stroke="#F43F5E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+<path d="M 742 696 C 802 696, 804 654, 864 654" fill="none" stroke="#F43F5E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+  <rect x="769.0" y="695.5" width="70.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="804.0" y="709.5" text-anchor="middle" fill="#FDA4AF" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Backprop</text>
+<g filter="url(#cardShadow)">
+    <polygon points="1406,200 1538,312 1406,424 1274,312" fill="#140F28" fill-opacity="0.97" stroke="#A78BFA" stroke-opacity="0.86" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="1406" cy="286" r="24.5" fill="#291E4D" fill-opacity="0.72" stroke="#A78BFA" stroke-opacity="0.4" stroke-width="1"/>
+    <g transform="translate(1388.00,268.00) scale(1.500000)" fill="none" stroke="#DDD6FE" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="m9 12 2 2 4-4" /></g>
+    <text x="1406" y="328" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">RQ2 Faithfulness</text>
+    <text x="1406" y="345" text-anchor="middle" fill="#DDD6FE" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.2" font-weight="600">Mask &amp; Concordance</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <polygon points="1406,496 1538,608 1406,720 1274,608" fill="#1C0C16" fill-opacity="0.97" stroke="#F43F5E" stroke-opacity="0.86" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="1406" cy="582" r="24.5" fill="#3A1323" fill-opacity="0.72" stroke="#F43F5E" stroke-opacity="0.4" stroke-width="1"/>
+    <g transform="translate(1388.00,564.00) scale(1.500000)" fill="none" stroke="#FDA4AF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="M12 8v4" /><path d="M12 16h.01" /></g>
+    <text x="1406" y="624" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">RQ3 Causality</text>
+    <text x="1406" y="641" text-anchor="middle" fill="#FDA4AF" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.2" font-weight="600">MoRF vs LeRF</text>
+  </g>
+<path d="M 1146 312 L 1272 312" fill="none" stroke="#A78BFA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-violet)" filter="url(#softGlow)"/>
+  <rect x="1166.5" y="275.5" width="83.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#A78BFA" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="1208.0" y="289.5" text-anchor="middle" fill="#DDD6FE" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Rank Align</text>
+<path d="M 1146 566 C 1210 566, 1204 374, 1286 354" fill="none" stroke="#F43F5E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+<path d="M 1146 608 L 1272 608" fill="none" stroke="#F43F5E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+  <rect x="1160.0" y="623.5" width="96.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="1208.0" y="637.5" text-anchor="middle" fill="#FDA4AF" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Feature Drop</text>
+<rect x="28" y="820" width="1544" height="40" rx="10" fill="#07080B" fill-opacity="0.94" stroke="#222630" stroke-width="1.1"/>
+  <text x="46" y="844" fill="#64748B" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="0.9">LEGEND</text>
+  <g transform="translate(108, 828)"><rect width="207" height="24" rx="6" fill="#0B0D12" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#38BDF8"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Zero-Payload Network Input</text></g>
+  <g transform="translate(325, 828)"><rect width="166" height="24" rx="6" fill="#0B0D12" stroke="#F59E0B" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#F59E0B"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">PyTorch CNN Baseline</text></g>
+  <g transform="translate(501, 828)"><rect width="194" height="24" rx="6" fill="#0B0D12" stroke="#A78BFA" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#A78BFA"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Attention &amp; Faithfulness</text></g>
+  <g transform="translate(705, 828)"><rect width="187" height="24" rx="6" fill="#0B0D12" stroke="#10B981" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#10B981"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">MedDefender Edge Hybrid</text></g>
+  <g transform="translate(902, 828)"><rect width="200" height="24" rx="6" fill="#0B0D12" stroke="#F43F5E" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#F43F5E"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Post-Hoc SHAP &amp; Causality</text></g>
+  <text x="1554" y="844" text-anchor="end" fill="#94A3B8" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.5">repo: iomt-xai-intrusion-detection | docs/diagrams/architecture.svg</text>
+</svg>

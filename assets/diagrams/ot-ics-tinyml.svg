@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 880" width="1600" height="880">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020203"/>
+      <stop offset="55%" stop-color="#050608"/>
+      <stop offset="100%" stop-color="#020203"/>
+    </linearGradient>
+    <radialGradient id="glowCenter" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#111318" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="cyberGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#17181E" stroke-width="0.7" stroke-opacity="0.50"/>
+      <circle cx="0" cy="0" r="0.9" fill="#64748B" fill-opacity="0.16"/>
+    </pattern>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="124%">
+      <feDropShadow dx="0" dy="7" stdDeviation="12" flood-color="#000000" flood-opacity="0.80"/>
+    </filter>
+    <filter id="softGlow" filterUnits="userSpaceOnUse" x="-40" y="-40" width="1680" height="960">
+      <feGaussianBlur stdDeviation="3.0" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arr-cyan" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#38BDF8"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#F43F5E"/>
+    </marker>
+    <marker id="arr-emerald" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#10B981"/>
+    </marker>
+    <marker id="arr-violet" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#A78BFA"/>
+    </marker>
+    <marker id="arr-amber" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#F59E0B"/>
+    </marker>
+    <marker id="arr-slate" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 9 5 L 0 8.8 z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="880" fill="url(#bgGrad)"/>
+  <rect width="1600" height="880" fill="url(#cyberGrid)"/>
+  <rect width="1600" height="880" fill="url(#glowCenter)"/>
+
+  <rect x="28" y="18" width="1544" height="72" rx="12" fill="#07080B" fill-opacity="0.94" stroke="#222630" stroke-width="1.2"/>
+  <rect x="28" y="18" width="5" height="72" rx="2.5" fill="#38BDF8"/>
+  <rect x="46" y="29" width="155" height="22" rx="5" fill="#10151F" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1"/>
+  <text x="123.3" y="43.5" text-anchor="middle" fill="#7DD3FC" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="0.8">OT / ICS SECURITY</text>
+  <text x="215" y="45.5" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">Multi-Layer OT/ICS Defense &amp; Edge TinyML Architecture</text>
+  <text x="46" y="72.5" fill="#CBD5E1" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="12.5">Qualitative Data &amp; Security Pipeline (Plant Simulation -&gt; 4-Shield Cortex-M7 -&gt; Local AI-SOC)</text>
+
+<g filter="url(#cardShadow)">
+    <rect x="64" y="124" width="290" height="162" rx="14" fill="#081C17" fill-opacity="0.96" stroke="#10B981" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="65.5" y="125.5" width="287" height="159" rx="12.5" fill="none" stroke="#6EE7B7" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="175.0" cy="180.6" r="28.8" fill="#0E332A" fill-opacity="0.76" stroke="#10B981" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(155.00,160.64) scale(1.666667)" fill="none" stroke="#6EE7B7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 14 4-4" /><path d="M3.34 19a10 10 0 1 1 17.32 0" /></g>
+    <circle cx="243.0" cy="180.6" r="28.8" fill="#0E332A" fill-opacity="0.76" stroke="#10B981" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(223.00,160.64) scale(1.666667)"><path d="M11.858 0c-.978.005-1.913.088-2.736.234C6.7.662 6.26 1.558 6.26 3.21v2.182h5.725v.727H4.111c-1.664 0-3.121 1-3.577 2.903-.526 2.181-.549 3.542 0 5.82.407 1.694 1.379 2.902 3.043 2.902h1.969v-2.616c0-1.89 1.635-3.557 3.576-3.557h5.72c1.591 0 2.862-1.31 2.862-2.91v-5.45c0-1.553-1.309-2.718-2.863-2.977A18 18 0 0 0 11.858 0M8.762 1.755c.591 0 1.074.491 1.074 1.095 0 .601-.483 1.087-1.074 1.087A1.08 1.08 0 0 1 7.688 2.85c0-.604.48-1.095 1.074-1.095m9.656 4.364v2.543c0 1.971-1.671 3.63-3.577 3.63H9.122c-1.566 0-2.862 1.34-2.862 2.91v5.452c0 1.551 1.349 2.464 2.862 2.91 1.813.532 3.55.628 5.72 0 1.44-.418 2.862-1.258 2.862-2.91V18.47h-5.719v-.727h8.582c1.664 0 2.284-1.16 2.862-2.903.598-1.793.573-3.518 0-5.819-.41-1.656-1.196-2.903-2.862-2.903zm-3.216 13.807a1.08 1.08 0 0 1 1.074 1.088c0 .604-.48 1.094-1.074 1.094-.592 0-1.075-.49-1.075-1.094 0-.601.483-1.088 1.075-1.088" fill="#6EE7B7"/></g>
+    <text x="209.0" y="254.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Plant Sensors Sim</text>
+    <text x="209.0" y="272.0" text-anchor="middle" fill="#6EE7B7" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">10 Telemetry Channels</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="476" y="124" width="320" height="162" rx="14" fill="#1C1408" fill-opacity="0.96" stroke="#F59E0B" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="477.5" y="125.5" width="317" height="159" rx="12.5" fill="none" stroke="#FCD34D" stroke-opacity="0.08" stroke-width="1"/>
+    <rect x="712" y="133" width="74" height="19" rx="5" fill="#38270D" stroke="#F59E0B" stroke-opacity="0.55" stroke-width="1"/>
+    <text x="749.2" y="145.8" text-anchor="middle" fill="#FCD34D" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="9.4" font-weight="700">TCP :1883</text>
+    <circle cx="636.0" cy="180.6" r="33.1" fill="#38270D" fill-opacity="0.76" stroke="#F59E0B" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(613.00,157.64) scale(1.916667)"><path d="M10.657 23.994h-9.45A1.212 1.212 0 0 1 0 22.788v-9.18h.071c5.784 0 10.504 4.65 10.586 10.386Zm7.606 0h-4.045C14.135 16.246 7.795 9.977 0 9.942V6.038h.071c9.983 0 18.121 8.044 18.192 17.956Zm4.53 0h-.97C21.754 12.071 11.995 2.407 0 2.372v-1.16C0 .55.544.006 1.207.006h7.64C15.733 2.49 21.257 7.789 24 14.508v8.291c0 .663-.544 1.195-1.207 1.195ZM16.713.006h6.092A1.19 1.19 0 0 1 24 1.2v5.914c-.91-1.242-2.046-2.65-3.158-3.762C19.588 2.11 18.122.987 16.714.005Z" fill="#FCD34D"/></g>
+    <text x="636.0" y="254.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">MQTT Broker Bus</text>
+    <text x="636.0" y="272.0" text-anchor="middle" fill="#FCD34D" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">telemetry  ·  soc_alarms</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="916" y="124" width="290" height="162" rx="14" fill="#1C0C16" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="917.5" y="125.5" width="287" height="159" rx="12.5" fill="none" stroke="#FDA4AF" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="1027.0" cy="180.6" r="28.8" fill="#3A1323" fill-opacity="0.76" stroke="#F43F5E" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(1007.00,160.64) scale(1.666667)" fill="none" stroke="#FDA4AF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v-9" /><path d="M14 7a4 4 0 0 1 4 4v3a6 6 0 0 1-12 0v-3a4 4 0 0 1 4-4z" /><path d="M14.12 3.88 16 2" /><path d="M21 21a4 4 0 0 0-3.81-4" /><path d="M21 5a4 4 0 0 1-3.55 3.97" /><path d="M22 13h-4" /><path d="M3 21a4 4 0 0 1 3.81-4" /><path d="M3 5a4 4 0 0 0 3.55 3.97" /><path d="M6 13H2" /><path d="m8 2 1.88 1.88" /><path d="M9 7.13V6a3 3 0 1 1 6 0v1.13" /></g>
+    <circle cx="1095.0" cy="180.6" r="28.8" fill="#3A1323" fill-opacity="0.76" stroke="#F43F5E" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(1075.00,160.64) scale(1.666667)"><path d="M11.858 0c-.978.005-1.913.088-2.736.234C6.7.662 6.26 1.558 6.26 3.21v2.182h5.725v.727H4.111c-1.664 0-3.121 1-3.577 2.903-.526 2.181-.549 3.542 0 5.82.407 1.694 1.379 2.902 3.043 2.902h1.969v-2.616c0-1.89 1.635-3.557 3.576-3.557h5.72c1.591 0 2.862-1.31 2.862-2.91v-5.45c0-1.553-1.309-2.718-2.863-2.977A18 18 0 0 0 11.858 0M8.762 1.755c.591 0 1.074.491 1.074 1.095 0 .601-.483 1.087-1.074 1.087A1.08 1.08 0 0 1 7.688 2.85c0-.604.48-1.095 1.074-1.095m9.656 4.364v2.543c0 1.971-1.671 3.63-3.577 3.63H9.122c-1.566 0-2.862 1.34-2.862 2.91v5.452c0 1.551 1.349 2.464 2.862 2.91 1.813.532 3.55.628 5.72 0 1.44-.418 2.862-1.258 2.862-2.91V18.47h-5.719v-.727h8.582c1.664 0 2.284-1.16 2.862-2.903.598-1.793.573-3.518 0-5.819-.41-1.656-1.196-2.903-2.862-2.903zm-3.216 13.807a1.08 1.08 0 0 1 1.074 1.088c0 .604-.48 1.094-1.074 1.094-.592 0-1.075-.49-1.075-1.094 0-.601.483-1.088 1.075-1.088" fill="#FDA4AF"/></g>
+    <text x="1061.0" y="254.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Red Team Suite</text>
+    <text x="1061.0" y="272.0" text-anchor="middle" fill="#FDA4AF" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">4 Evasion Scenarios</text>
+  </g>
+<path d="M 354 205 L 474 205" fill="none" stroke="#10B981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-emerald)" filter="url(#softGlow)"/>
+  <rect x="366.0" y="171.5" width="96.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#10B981" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="414.0" y="185.5" text-anchor="middle" fill="#6EE7B7" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Healthy JSON</text>
+<path d="M 916 205 L 798 205" fill="none" stroke="#F43F5E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+  <rect x="802.5" y="171.5" width="109.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="857.0" y="185.5" text-anchor="middle" fill="#FDA4AF" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Inject Attacks</text>
+
+  <g>
+    <rect x="28" y="354" width="1026" height="442" rx="16" fill="#07080B" fill-opacity="0.72" stroke="#38BDF8" stroke-opacity="0.46" stroke-width="1.4" stroke-dasharray="7 5"/>
+    <rect x="46" y="343" width="300" height="22" rx="6" fill="#040507" stroke="#38BDF8" stroke-opacity="0.7" stroke-width="1"/>
+    <text x="58" y="357.5" fill="#7DD3FC" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="0.8">EDGE GATEWAY — PORTENTA H7 (CORTEX-M7)</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="504" y="384" width="264" height="110" rx="14" fill="#091929" fill-opacity="0.96" stroke="#38BDF8" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="505.5" y="385.5" width="261" height="107" rx="12.5" fill="none" stroke="#7DD3FC" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="606.0" cy="415.7" r="23.0" fill="#0F2942" fill-opacity="0.76" stroke="#38BDF8" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(590.00,399.68) scale(1.333333)"><path d="M18.087 6.146c-.3 0-.607.017-.907.069-2.532.367-4.23 2.239-5.18 3.674-.95-1.435-2.648-3.307-5.18-3.674a6.49 6.49 0 0 0-.907-.069C2.648 6.146 0 8.77 0 12s2.656 5.854 5.913 5.854c.3 0 .607-.017.916-.069 2.531-.376 4.23-2.247 5.18-3.683.949 1.436 2.647 3.307 5.18 3.683.299.043.607.069.915.069C21.344 17.854 24 15.23 24 12s-2.656-5.854-5.913-5.854zM6.53 15.734a3.837 3.837 0 0 1-.625.043c-2.148 0-3.889-1.7-3.889-3.777 0-2.085 1.749-3.777 3.898-3.777.208 0 .416.017.624.043 2.39.35 3.847 2.768 4.347 3.734-.508.974-1.974 3.384-4.355 3.734zm11.558.043c-.208 0-.416-.017-.624-.043-2.39-.35-3.856-2.768-4.347-3.734.491-.966 1.957-3.384 4.347-3.734.208-.026.416-.043.624-.043 2.149 0 3.89 1.7 3.89 3.777 0 2.085-1.75 3.777-3.89 3.777zm1.65-4.404v1.134h-1.205v1.182h-1.156v-1.182H16.17v-1.134h1.206V10.19h1.156v1.183h1.206zM4.246 12.498H7.82v-1.125H4.245v1.125z" fill="#7DD3FC"/></g>
+    <circle cx="666.0" cy="415.7" r="23.0" fill="#0F2942" fill-opacity="0.76" stroke="#38BDF8" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(650.00,399.68) scale(1.333333)"><path d="M10.657 23.994h-9.45A1.212 1.212 0 0 1 0 22.788v-9.18h.071c5.784 0 10.504 4.65 10.586 10.386Zm7.606 0h-4.045C14.135 16.246 7.795 9.977 0 9.942V6.038h.071c9.983 0 18.121 8.044 18.192 17.956Zm4.53 0h-.97C21.754 12.071 11.995 2.407 0 2.372v-1.16C0 .55.544.006 1.207.006h7.64C15.733 2.49 21.257 7.789 24 14.508v8.291c0 .663-.544 1.195-1.207 1.195ZM16.713.006h6.092A1.19 1.19 0 0 1 24 1.2v5.914c-.91-1.242-2.046-2.65-3.158-3.762C19.588 2.11 18.122.987 16.714.005Z" fill="#7DD3FC"/></g>
+    <text x="636.0" y="462.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">MQTT Handler</text>
+    <text x="636.0" y="480.0" text-anchor="middle" fill="#7DD3FC" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">M7 Edge Ingress</text>
+  </g>
+<path d="M 574 286 L 574 382" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-cyan)" filter="url(#softGlow)"/>
+  <rect x="535.8" y="309.5" width="76.5" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#38BDF8" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="574.0" y="323.5" text-anchor="middle" fill="#7DD3FC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Telemetry</text>
+<path d="M 702 384 L 702 288" fill="none" stroke="#F59E0B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-amber)" filter="url(#softGlow)"/>
+  <rect x="641.0" y="309.5" width="122.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F59E0B" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="702.0" y="323.5" text-anchor="middle" fill="#FCD34D" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Forensic Dossier</text>
+<g filter="url(#cardShadow)">
+    <polygon points="160,556 264,648 160,740 56,648" fill="#091929" fill-opacity="0.97" stroke="#38BDF8" stroke-opacity="0.86" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="160" cy="622" r="23.1" fill="#0F2942" fill-opacity="0.72" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1"/>
+    <g transform="translate(143.00,605.00) scale(1.416667)" fill="none" stroke="#7DD3FC" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /></g>
+    <text x="160" y="664" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">1. Rate Limit</text>
+    <text x="160" y="681" text-anchor="middle" fill="#7DD3FC" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.2" font-weight="600">Anti-DoS Gate</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <polygon points="412,556 516,648 412,740 308,648" fill="#091929" fill-opacity="0.97" stroke="#38BDF8" stroke-opacity="0.86" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="412" cy="622" r="23.1" fill="#0F2942" fill-opacity="0.72" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1"/>
+    <g transform="translate(395.00,605.00) scale(1.416667)" fill="none" stroke="#7DD3FC" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></g>
+    <text x="412" y="664" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">2. Sanitize</text>
+    <text x="412" y="681" text-anchor="middle" fill="#7DD3FC" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.2" font-weight="600">Schema &amp; Keys</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <polygon points="664,556 768,648 664,740 560,648" fill="#091929" fill-opacity="0.97" stroke="#38BDF8" stroke-opacity="0.86" stroke-width="1.8" stroke-linejoin="round"/>
+    <circle cx="664" cy="622" r="23.1" fill="#0F2942" fill-opacity="0.72" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1"/>
+    <g transform="translate(647.00,605.00) scale(1.416667)" fill="none" stroke="#7DD3FC" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2" /></g>
+    <text x="664" y="664" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">3. Kinematics</text>
+    <text x="664" y="681" text-anchor="middle" fill="#7DD3FC" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.2" font-weight="600">Physics Bounds</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="828" y="562" width="202" height="172" rx="14" fill="#081C17" fill-opacity="0.96" stroke="#10B981" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="829.5" y="563.5" width="199" height="169" rx="12.5" fill="none" stroke="#6EE7B7" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="929.0" cy="623.4" r="33.1" fill="#0E332A" fill-opacity="0.76" stroke="#10B981" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(906.00,600.44) scale(1.916667)"><path d="M16.008 10.287h4.51l1.348 3.53h-5.858c-.979 0-1.772-.79-1.772-1.766s.793-1.766 1.772-1.766v.002ZM.677 12.049a1.77 1.77 0 0 1 1.773-1.766h8.597a1.77 1.77 0 0 1 1.772 1.766c0 .976-.793 1.766-1.772 1.766H2.45c-.98 0-1.773-.79-1.773-1.766ZM24 19.613H4.448a2.515 2.515 0 0 1-1.93.899A2.514 2.514 0 0 1 0 18.002a2.514 2.514 0 0 1 2.518-2.509c.775 0 1.467.351 1.93.899h18.321L24 19.613ZM19.594 7.655H4.404a2.51 2.51 0 0 1-1.886.852A2.514 2.514 0 0 1 0 5.998a2.514 2.514 0 0 1 2.518-2.51c.797 0 1.506.371 1.967.946h13.878l1.231 3.221Z" fill="#6EE7B7"/></g>
+    <text x="929.0" y="702.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">4. Edge TinyML</text>
+    <text x="929.0" y="720.0" text-anchor="middle" fill="#6EE7B7" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">Stealth Anomaly</text>
+  </g>
+<path d="M 504 440 L 160 440 L 160 554" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-cyan)" filter="url(#softGlow)"/>
+  <rect x="300.2" y="429.5" width="63.5" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#38BDF8" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="332.0" y="443.5" text-anchor="middle" fill="#7DD3FC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Inspect</text>
+<path d="M 264 648 L 306 648" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-cyan)" filter="url(#softGlow)"/>
+<path d="M 516 648 L 558 648" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-cyan)" filter="url(#softGlow)"/>
+<path d="M 768 648 L 826 648" fill="none" stroke="#10B981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-emerald)" filter="url(#softGlow)"/>
+<path d="M 929 562 L 929 440 L 770 440" fill="none" stroke="#F59E0B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-amber)" filter="url(#softGlow)"/>
+  <rect x="811.8" y="429.5" width="128.5" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F59E0B" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="876.0" y="443.5" text-anchor="middle" fill="#FCD34D" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">soc_alarms / Pass</text>
+
+  <g>
+    <rect x="1090" y="354" width="482" height="442" rx="16" fill="#07080B" fill-opacity="0.72" stroke="#A78BFA" stroke-opacity="0.46" stroke-width="1.4" stroke-dasharray="7 5"/>
+    <rect x="1108" y="343" width="199" height="22" rx="6" fill="#040507" stroke="#A78BFA" stroke-opacity="0.7" stroke-width="1"/>
+    <text x="1120" y="357.5" fill="#DDD6FE" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="0.8">BLUE TEAM — LOCAL AI-SOC</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="1132" y="396" width="398" height="154" rx="14" fill="#140F28" fill-opacity="0.96" stroke="#A78BFA" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="1133.5" y="397.5" width="395" height="151" rx="12.5" fill="none" stroke="#DDD6FE" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="1296.0" cy="448.8" r="30.2" fill="#291E4D" fill-opacity="0.76" stroke="#A78BFA" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(1275.00,427.80) scale(1.750000)"><path d="M11.858 0c-.978.005-1.913.088-2.736.234C6.7.662 6.26 1.558 6.26 3.21v2.182h5.725v.727H4.111c-1.664 0-3.121 1-3.577 2.903-.526 2.181-.549 3.542 0 5.82.407 1.694 1.379 2.902 3.043 2.902h1.969v-2.616c0-1.89 1.635-3.557 3.576-3.557h5.72c1.591 0 2.862-1.31 2.862-2.91v-5.45c0-1.553-1.309-2.718-2.863-2.977A18 18 0 0 0 11.858 0M8.762 1.755c.591 0 1.074.491 1.074 1.095 0 .601-.483 1.087-1.074 1.087A1.08 1.08 0 0 1 7.688 2.85c0-.604.48-1.095 1.074-1.095m9.656 4.364v2.543c0 1.971-1.671 3.63-3.577 3.63H9.122c-1.566 0-2.862 1.34-2.862 2.91v5.452c0 1.551 1.349 2.464 2.862 2.91 1.813.532 3.55.628 5.72 0 1.44-.418 2.862-1.258 2.862-2.91V18.47h-5.719v-.727h8.582c1.664 0 2.284-1.16 2.862-2.903.598-1.793.573-3.518 0-5.819-.41-1.656-1.196-2.903-2.862-2.903zm-3.216 13.807a1.08 1.08 0 0 1 1.074 1.088c0 .604-.48 1.094-1.074 1.094-.592 0-1.075-.49-1.075-1.094 0-.601.483-1.088 1.075-1.088" fill="#DDD6FE"/></g>
+    <circle cx="1366.0" cy="448.8" r="30.2" fill="#291E4D" fill-opacity="0.76" stroke="#A78BFA" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(1345.00,427.80) scale(1.750000)" fill="none" stroke="#DDD6FE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="m9 12 2 2 4-4" /></g>
+    <text x="1331.0" y="518.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Async SIEM Collector</text>
+    <text x="1331.0" y="536.0" text-anchor="middle" fill="#DDD6FE" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">Queue &amp; Prompt Guardrails</text>
+  </g>
+<g filter="url(#cardShadow)">
+    <rect x="1132" y="612" width="398" height="158" rx="14" fill="#140F28" fill-opacity="0.96" stroke="#A78BFA" stroke-opacity="0.86" stroke-width="1.6"/>
+    <rect x="1133.5" y="613.5" width="395" height="155" rx="12.5" fill="none" stroke="#DDD6FE" stroke-opacity="0.08" stroke-width="1"/>
+    <circle cx="1295.0" cy="666.7" r="31.7" fill="#291E4D" fill-opacity="0.76" stroke="#A78BFA" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(1273.00,644.72) scale(1.833333)"><path d="M16.361 10.26a.894.894 0 0 0-.558.47l-.072.148.001.207c0 .193.004.217.059.353.076.193.152.312.291.448.24.238.51.3.872.205a.86.86 0 0 0 .517-.436.752.752 0 0 0 .08-.498c-.064-.453-.33-.782-.724-.897a1.06 1.06 0 0 0-.466 0zm-9.203.005c-.305.096-.533.32-.65.639a1.187 1.187 0 0 0-.06.52c.057.309.31.59.598.667.362.095.632.033.872-.205.14-.136.215-.255.291-.448.055-.136.059-.16.059-.353l.001-.207-.072-.148a.894.894 0 0 0-.565-.472 1.02 1.02 0 0 0-.474.007Zm4.184 2c-.131.071-.223.25-.195.383.031.143.157.288.353.407.105.063.112.072.117.136.004.038-.01.146-.029.243-.02.094-.036.194-.036.222.002.074.07.195.143.253.064.052.076.054.255.059.164.005.198.001.264-.03.169-.082.212-.234.15-.525-.052-.243-.042-.28.087-.355.137-.08.281-.219.324-.314a.365.365 0 0 0-.175-.48.394.394 0 0 0-.181-.033c-.126 0-.207.03-.355.124l-.085.053-.053-.032c-.219-.13-.259-.145-.391-.143a.396.396 0 0 0-.193.032zm.39-2.195c-.373.036-.475.05-.654.086-.291.06-.68.195-.951.328-.94.46-1.589 1.226-1.787 2.114-.04.176-.045.234-.045.53 0 .294.005.357.043.524.264 1.16 1.332 2.017 2.714 2.173.3.033 1.596.033 1.896 0 1.11-.125 2.064-.727 2.493-1.571.114-.226.169-.372.22-.602.039-.167.044-.23.044-.523 0-.297-.005-.355-.045-.531-.288-1.29-1.539-2.304-3.072-2.497a6.873 6.873 0 0 0-.855-.031zm.645.937a3.283 3.283 0 0 1 1.44.514c.223.148.537.458.671.662.166.251.26.508.303.82.02.143.01.251-.043.482-.08.345-.332.705-.672.957a3.115 3.115 0 0 1-.689.348c-.382.122-.632.144-1.525.138-.582-.006-.686-.01-.853-.042-.57-.107-1.022-.334-1.35-.68-.264-.28-.385-.535-.45-.946-.03-.192.025-.509.137-.776.136-.326.488-.73.836-.963.403-.269.934-.46 1.422-.512.187-.02.586-.02.773-.002zm-5.503-11a1.653 1.653 0 0 0-.683.298C5.617.74 5.173 1.666 4.985 2.819c-.07.436-.119 1.04-.119 1.503 0 .544.064 1.24.155 1.721.02.107.031.202.023.208a8.12 8.12 0 0 1-.187.152 5.324 5.324 0 0 0-.949 1.02 5.49 5.49 0 0 0-.94 2.339 6.625 6.625 0 0 0-.023 1.357c.091.78.325 1.438.727 2.04l.13.195-.037.064c-.269.452-.498 1.105-.605 1.732-.084.496-.095.629-.095 1.294 0 .67.009.803.088 1.266.095.555.288 1.143.503 1.534.071.128.243.393.264.407.007.003-.014.067-.046.141a7.405 7.405 0 0 0-.548 1.873c-.062.417-.071.552-.071.991 0 .56.031.832.148 1.279L3.42 24h1.478l-.05-.091c-.297-.552-.325-1.575-.068-2.597.117-.472.25-.819.498-1.296l.148-.29v-.177c0-.165-.003-.184-.057-.293a.915.915 0 0 0-.194-.25 1.74 1.74 0 0 1-.385-.543c-.424-.92-.506-2.286-.208-3.451.124-.486.329-.918.544-1.154a.787.787 0 0 0 .223-.531c0-.195-.07-.355-.224-.522a3.136 3.136 0 0 1-.817-1.729c-.14-.96.114-2.005.69-2.834.563-.814 1.353-1.336 2.237-1.475.199-.033.57-.028.776.01.226.04.367.028.512-.041.179-.085.268-.19.374-.431.093-.215.165-.333.36-.576.234-.29.46-.489.822-.729.413-.27.884-.467 1.352-.561.17-.035.25-.04.569-.04.319 0 .398.005.569.04a4.07 4.07 0 0 1 1.914.997c.117.109.398.457.488.602.034.057.095.177.132.267.105.241.195.346.374.43.14.068.286.082.503.045.343-.058.607-.053.943.016 1.144.23 2.14 1.173 2.581 2.437.385 1.108.276 2.267-.296 3.153-.097.15-.193.27-.333.419-.301.322-.301.722-.001 1.053.493.539.801 1.866.708 3.036-.062.772-.26 1.463-.533 1.854a2.096 2.096 0 0 1-.224.258.916.916 0 0 0-.194.25c-.054.109-.057.128-.057.293v.178l.148.29c.248.476.38.823.498 1.295.253 1.008.231 2.01-.059 2.581a.845.845 0 0 0-.044.098c0 .006.329.009.732.009h.73l.02-.074.036-.134c.019-.076.057-.3.088-.516.029-.217.029-1.016 0-1.258-.11-.875-.295-1.57-.597-2.226-.032-.074-.053-.138-.046-.141.008-.005.057-.074.108-.152.376-.569.607-1.284.724-2.228.031-.26.031-1.378 0-1.628-.083-.645-.182-1.082-.348-1.525a6.083 6.083 0 0 0-.329-.7l-.038-.064.131-.194c.402-.604.636-1.262.727-2.04a6.625 6.625 0 0 0-.024-1.358 5.512 5.512 0 0 0-.939-2.339 5.325 5.325 0 0 0-.95-1.02 8.097 8.097 0 0 1-.186-.152.692.692 0 0 1 .023-.208c.208-1.087.201-2.443-.017-3.503-.19-.924-.535-1.658-.98-2.082-.354-.338-.716-.482-1.15-.455-.996.059-1.8 1.205-2.116 3.01a6.805 6.805 0 0 0-.097.726c0 .036-.007.066-.015.066a.96.96 0 0 1-.149-.078A4.857 4.857 0 0 0 12 3.03c-.832 0-1.687.243-2.456.698a.958.958 0 0 1-.148.078c-.008 0-.015-.03-.015-.066a6.71 6.71 0 0 0-.097-.725C8.997 1.392 8.337.319 7.46.048a2.096 2.096 0 0 0-.585-.041Zm.293 1.402c.248.197.523.759.682 1.388.03.113.06.244.069.292.007.047.026.152.041.233.067.365.098.76.102 1.24l.002.475-.12.175-.118.178h-.278c-.324 0-.646.041-.954.124l-.238.06c-.033.007-.038-.003-.057-.144a8.438 8.438 0 0 1 .016-2.323c.124-.788.413-1.501.696-1.711.067-.05.079-.049.157.013zm9.825-.012c.17.126.358.46.498.888.28.854.36 2.028.212 3.145-.019.14-.024.151-.057.144l-.238-.06a3.693 3.693 0 0 0-.954-.124h-.278l-.119-.178-.119-.175.002-.474c.004-.669.066-1.19.214-1.772.157-.623.434-1.185.68-1.382.078-.062.09-.063.159-.012z" fill="#DDD6FE"/></g>
+    <circle cx="1367.0" cy="666.7" r="31.7" fill="#291E4D" fill-opacity="0.76" stroke="#A78BFA" stroke-opacity="0.46" stroke-width="1.15"/>
+    <g transform="translate(1345.00,644.72) scale(1.833333)" fill="none" stroke="#DDD6FE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" /><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12" /><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17" /></g>
+    <text x="1331.0" y="738.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Qwen 2.5 7B + MITRE ICS</text>
+    <text x="1331.0" y="756.0" text-anchor="middle" fill="#DDD6FE" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">Local Ollama Triage</text>
+  </g>
+<path d="M 796 254 L 856 254 L 856 322 L 1331 322 L 1331 394" fill="none" stroke="#F59E0B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-amber)" filter="url(#softGlow)"/>
+  <rect x="1034.2" y="311.5" width="115.5" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F59E0B" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="1092.0" y="325.5" text-anchor="middle" fill="#FCD34D" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">MQTT soc_alarms</text>
+<path d="M 1331 550 L 1331 610" fill="none" stroke="#A78BFA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-violet)" filter="url(#softGlow)"/>
+  <rect x="1270.0" y="569.5" width="122.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#A78BFA" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="1331.0" y="583.5" text-anchor="middle" fill="#DDD6FE" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Grounded Dossier</text>
+<rect x="28" y="820" width="1544" height="40" rx="10" fill="#07080B" fill-opacity="0.94" stroke="#222630" stroke-width="1.1"/>
+  <text x="46" y="844" fill="#64748B" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="0.9">LEGEND</text>
+  <g transform="translate(108, 828)"><rect width="187" height="24" rx="6" fill="#0B0D12" stroke="#10B981" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#10B981"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Plant Sim &amp; TinyML Gate</text></g>
+  <g transform="translate(305, 828)"><rect width="200" height="24" rx="6" fill="#0B0D12" stroke="#F43F5E" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#F43F5E"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Red Team Attack Injection</text></g>
+  <g transform="translate(515, 828)"><rect width="207" height="24" rx="6" fill="#0B0D12" stroke="#F59E0B" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#F59E0B"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">MQTT Bus &amp; MITRE Grounding</text></g>
+  <g transform="translate(733, 828)"><rect width="207" height="24" rx="6" fill="#0B0D12" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#38BDF8"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Cortex-M7 Security Shields</text></g>
+  <g transform="translate(950, 828)"><rect width="187" height="24" rx="6" fill="#0B0D12" stroke="#A78BFA" stroke-opacity="0.55" stroke-width="1"/><circle cx="12" cy="12" r="4" fill="#A78BFA"/><text x="23" y="15.8" fill="#E2E8F0" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Async AI-SOC (Qwen 2.5)</text></g>
+  <text x="1554" y="844" text-anchor="end" fill="#94A3B8" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.5">repo: ot-ics-tinyml-ai-soc | docs/diagrams/architecture.svg</text>
+</svg>
