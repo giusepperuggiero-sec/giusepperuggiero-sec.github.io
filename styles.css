@@ -8,6 +8,7 @@
   --text-muted: #cbd5e1;
   --text-dim: #94a3b8;
   --cyan: #38bdf8;
+  --cyan-soft: rgba(56, 189, 248, 0.14);
   --cobalt: #0f4c81;
   --red: #f43f5e;
   --red-soft: rgba(244, 63, 94, 0.14);
@@ -15,6 +16,8 @@
   --emerald-soft: rgba(16, 185, 129, 0.14);
   --violet: #a78bfa;
   --violet-soft: rgba(167, 139, 250, 0.14);
+  --amber: #f59e0b;
+  --amber-soft: rgba(245, 158, 11, 0.14);
   --font-sans: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
   --font-display: 'Space Grotesk', 'Inter', 'Segoe UI', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', 'Cascadia Mono', Consolas, monospace;
@@ -438,10 +441,71 @@ div[id] {
   color: var(--text-dim);
 }
 
+.hero-card-foot {
+  margin-top: 0.85rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.hero-card-foot-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+  margin-right: auto;
+}
+
+.hero-card-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.22rem 0.62rem;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text-muted);
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.hero-card-link:hover {
+  border-color: rgba(56, 189, 248, 0.55);
+  color: var(--cyan);
+}
+
 /* Case Studies */
 .cases-stack {
   display: grid;
   gap: 2rem;
+}
+
+.cases-subhead {
+  margin: 3.1rem 0 1.65rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.cases-subhead .eyebrow {
+  margin-bottom: 0.35rem;
+}
+
+.cases-subhead-title {
+  margin: 0 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.28rem, 2.3vw, 1.62rem);
+  line-height: 1.25;
+}
+
+.cases-subhead-desc {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 0.94rem;
 }
 
 .case-card {
@@ -464,6 +528,8 @@ div[id] {
 .case-card.accent-red::before { background: linear-gradient(90deg, var(--red), transparent 70%); }
 .case-card.accent-emerald::before { background: linear-gradient(90deg, var(--emerald), transparent 70%); }
 .case-card.accent-violet::before { background: linear-gradient(90deg, var(--violet), transparent 70%); }
+.case-card.accent-cyan::before { background: linear-gradient(90deg, var(--cyan), transparent 70%); }
+.case-card.accent-amber::before { background: linear-gradient(90deg, var(--amber), transparent 70%); }
 
 .case-top {
   display: flex;
@@ -499,6 +565,18 @@ div[id] {
   background: var(--violet-soft);
   border: 1px solid rgba(167, 139, 250, 0.45);
   color: #ddd6fe;
+}
+
+.badge-cyan {
+  background: var(--cyan-soft);
+  border: 1px solid rgba(56, 189, 248, 0.45);
+  color: #7dd3fc;
+}
+
+.badge-amber {
+  background: var(--amber-soft);
+  border: 1px solid rgba(245, 158, 11, 0.45);
+  color: #fcd34d;
 }
 
 .case-meta {

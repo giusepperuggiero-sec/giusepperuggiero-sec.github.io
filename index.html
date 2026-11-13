@@ -6,12 +6,12 @@
   <title>Giuseppe Ruggiero | Computer Engineer &amp; Cybersecurity Portfolio</title>
   <meta
     name="description"
-    content="Portfolio of Giuseppe Ruggiero — Computer Engineer &amp; M.Sc. Candidate in Cybersecurity at University of Naples Federico II. Red &amp; Blue Teaming, OT/ICS Edge TinyML, AI-SOC, and Explainable AI for IoMT IDS."
+    content="Portfolio of Giuseppe Ruggiero — Computer Engineer &amp; M.Sc. Candidate in Cybersecurity at University of Naples Federico II. Red &amp; Blue Teaming, OT/ICS Edge TinyML, AI-SOC, Explainable AI for IoMT IDS, SDN Network Slicing, and Comparative Legal RAG."
   />
   <meta property="og:title" content="Giuseppe Ruggiero | Cybersecurity &amp; Computer Engineering Portfolio" />
   <meta
     property="og:description"
-    content="Case studies in Enterprise IoT Red/Blue Teaming &amp; Wazuh SIEM, OT/ICS TinyML &amp; AI-Assisted SOC, and Explainable AI for IoMT Intrusion Detection."
+    content="Case studies in Enterprise IoT Red/Blue Teaming &amp; Wazuh SIEM, OT/ICS TinyML &amp; AI-SOC, Explainable AI for IoMT IDS, SDN QoS Slicing, and Hardened Agentic RAG."
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://giusepperuggiero-sec.github.io/" />
@@ -91,7 +91,7 @@
             Computer Engineer &middot; M.Sc. Candidate in Cybersecurity &middot; Naples, Italy
           </p>
           <p class="hero-lead" data-i18n="hero.lead">
-            B.Sc. in Computer Engineering and M.Sc. candidate in Cybersecurity at the University of Naples Federico II (all specialization coursework completed). Industry background in IT support, backups, database integrity, and Python automation, backed by end-to-end projects in Red/Blue Teaming, OT/ICS security, and Explainable AI.
+            B.Sc. in Computer Engineering and M.Sc. candidate in Cybersecurity at the University of Naples Federico II (all specialization coursework completed). Industry background in IT support, backups, database integrity, and Python automation, backed by end-to-end projects in Red/Blue Teaming, OT/ICS security, Explainable AI, SDN network slicing, and hardened RAG systems.
           </p>
 
           <div class="hero-cta">
@@ -149,6 +149,12 @@
               <strong class="metric-value" data-i18n="hero.card3Val">181,366 Test Biflows &middot; ~550x Speedup</strong>
               <span class="metric-sub" data-i18n="hero.card3Sub">Zero-payload headers, 10/10 unit tests verified</span>
             </a>
+          </div>
+
+          <div class="hero-card-foot">
+            <span class="hero-card-foot-label" data-i18n="hero.moreLabel">SYSTEMS &amp; AI:</span>
+            <a class="hero-card-link" href="#sdn-slicing" data-i18n="hero.moreSdn">SDN QoS Slicing</a>
+            <a class="hero-card-link" href="#legal-rag" data-i18n="hero.moreRag">Legal RAG Agents</a>
           </div>
         </aside>
       </div>
@@ -563,6 +569,288 @@
             </details>
           </article>
         </div>
+
+        <div class="cases-subhead">
+          <span class="eyebrow" data-i18n="projects.subEyebrow">SYSTEMS &amp; AI ENGINEERING</span>
+          <h3 class="cases-subhead-title" data-i18n="projects.subTitle">Network Infrastructure &amp; Hardened Agentic AI</h3>
+          <p class="cases-subhead-desc" data-i18n="projects.subDesc">
+            Additional graduate engineering platforms built with the same security, concurrency hardening, and reproducible testing standards.
+          </p>
+        </div>
+
+        <div class="cases-stack">
+          <!-- Case Study 4: SDN QoS Network Slicing -->
+          <article class="case-card accent-cyan" id="sdn-slicing">
+            <div class="case-top">
+              <span class="case-badge badge-cyan">Network and Cloud Infrastructures</span>
+              <span class="case-meta" data-i18n="case4.meta">University of Naples Federico II &middot; SDN &amp; Telemetry</span>
+            </div>
+
+            <div class="case-grid">
+              <div class="case-body">
+                <h3 class="case-title" data-i18n="case4.title">
+                  SDN QoS Network Slicing, Adaptive Classification &amp; Telemetry
+                </h3>
+                <p class="case-summary" data-i18n="case4.summary">
+                  Software-Defined Networking testbed implementing four progressive OpenFlow 1.3 controller modes over a dual-slice Mininet diamond topology (10 Mbps priority vs. 1 Mbps best-effort), combining strict isolation, L4 service slicing, statistical D-ITG flow steering, and a hardened Prometheus/Grafana exporter.
+                </p>
+
+                <div class="case-pillars">
+                  <div class="pillar">
+                    <h4 data-i18n="case4.archLabel">Multi-Mode Control Plane</h4>
+                    <p data-i18n="case4.arch">
+                      10 Mbps Upper Slice (S2) carries priority UDP:9999 and statistically promoted flows (prio 100/200), while 1 Mbps Lower Slice (S3) handles best-effort TCP/ICMP traffic with loop-free broadcast confinement and ARP proxy rules.
+                    </p>
+                  </div>
+                  <div class="pillar">
+                    <h4 data-i18n="case4.auditLabel">Concurrency &amp; Loop Hardening</h4>
+                    <p data-i18n="case4.audit">
+                      Eliminated S4 &lt;-&gt; S2 adaptive routing loops via directional egress pinning, stabilized sub-second rate estimates using duration_nsec (0.25 s floor), fixed OFP_NO_BUFFER handling, and added a thread-locked :8000/metrics exporter (7/7 unit tests).
+                    </p>
+                  </div>
+                </div>
+
+                <div class="tag-row">
+                  <span>Python</span>
+                  <span>Ryu (OpenFlow 1.3)</span>
+                  <span>Mininet</span>
+                  <span>Open vSwitch</span>
+                  <span>D-ITG</span>
+                  <span>Prometheus</span>
+                  <span>Grafana</span>
+                  <span>Unittest</span>
+                </div>
+
+                <div class="case-actions">
+                  <a
+                    class="btn btn-primary btn-sm"
+                    href="https://github.com/giusepperuggiero-sec/sdn-qos-network-slicing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span data-i18n="case.viewRepo">View Repository</span>
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M7 17 17 7"/><path d="M7 7h10v10"/>
+                    </svg>
+                  </a>
+                  <button
+                    type="button"
+                    class="btn btn-ghost btn-sm zoom-trigger"
+                    data-src="assets/diagrams/sdn-slicing.svg"
+                    data-title="SDN QoS Network Slicing &amp; Prometheus Telemetry Architecture"
+                    data-repo="https://github.com/giusepperuggiero-sec/sdn-qos-network-slicing"
+                  >
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/>
+                    </svg>
+                    <span data-i18n="case.zoomDiagram">Zoom Diagram</span>
+                  </button>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                class="diagram-frame zoom-trigger"
+                data-src="assets/diagrams/sdn-slicing.svg"
+                data-title="SDN QoS Network Slicing &amp; Prometheus Telemetry Architecture"
+                data-repo="https://github.com/giusepperuggiero-sec/sdn-qos-network-slicing"
+                aria-label="Inspect SDN QoS Network Slicing Diagram"
+              >
+                <div class="diagram-bar">
+                  <span class="diagram-path">docs/diagrams/architecture.svg</span>
+                  <span class="diagram-zoom-chip" data-i18n="case.expandChip">Expand</span>
+                </div>
+                <img
+                  src="assets/diagrams/sdn-slicing.svg"
+                  alt="SDN QoS Network Slicing, OpenFlow 1.3 Control Plane and Prometheus Telemetry"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+
+            <details class="case-details">
+              <summary data-i18n="case4.detailsTitle">Verified Mininet Benchmarks (iperf, pingall &amp; D-ITG)</summary>
+              <div class="details-inner">
+                <div class="table-wrap">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th data-i18n="case4.tblExp">Experiment</th>
+                        <th data-i18n="case4.tblScope">Slice / Mode</th>
+                        <th data-i18n="case4.tblOutcome">Observed Outcome</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><code data-i18n="case4.e1">Topology Slicing pingall</code></td>
+                        <td data-i18n="case4.s1">H1 &lt;-&gt; H3 (S2), H2 &lt;-&gt; H4 (S3)</td>
+                        <td data-i18n="case4.o1">66% dropped (4/12 received) — hard slice isolation verified.</td>
+                      </tr>
+                      <tr>
+                        <td><code data-i18n="case4.e2">Service Slicing pingall</code></td>
+                        <td data-i18n="case4.s2">Full mesh over Lower Slice (S3)</td>
+                        <td data-i18n="case4.o2">0% dropped (12/12 received) — loop-free broadcast reachability.</td>
+                      </tr>
+                      <tr>
+                        <td><code data-i18n="case4.e3">Priority Video UDP :9999</code></td>
+                        <td data-i18n="case4.s3">h1 -&gt; h3 (60 s iperf stream, 10 Mbps S2)</td>
+                        <td data-i18n="case4.o3">9.35 Mbits/sec, 5.010 ms jitter, 0 / 47,796 (0%) packet loss.</td>
+                      </tr>
+                      <tr>
+                        <td><code data-i18n="case4.e4">Best-Effort TCP :80</code></td>
+                        <td data-i18n="case4.s4">h2 -&gt; h4 (84.26 s iperf stream, 1 Mbps S3)</td>
+                        <td data-i18n="case4.o4">Bounded cleanly at 958 Kbits/sec without starving priority slice.</td>
+                      </tr>
+                      <tr>
+                        <td><code data-i18n="case4.e5">D-ITG Concurrent Profile</code></td>
+                        <td data-i18n="case4.s5">120 s UDP:9999 + TCP:80 adaptive steering</td>
+                        <td data-i18n="case4.o5">UDP (-C 1293 -c 1450) promoted to S2; TCP (-C 488 -c 512) constrained on S3.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p class="details-note" data-i18n="case4.note">
+                  Verified offline controller logic via 7/7 mocked Ryu/HTTP unit tests (test_sdn_controllers.py), validating loop-free adaptive resolution, duration_nsec rate gating, DEAD_DISPATCHER cleanup, and Prometheus label escaping on loopback bind 127.0.0.1:8000.
+                </p>
+              </div>
+            </details>
+          </article>
+
+          <!-- Case Study 5: Multilingual Comparative Legal RAG -->
+          <article class="case-card accent-amber" id="legal-rag">
+            <div class="case-top">
+              <span class="case-badge badge-amber">Text Mining</span>
+              <span class="case-meta" data-i18n="case5.meta">University of Naples Federico II &middot; Hardened Agentic RAG</span>
+            </div>
+
+            <div class="case-grid">
+              <div class="case-body">
+                <h3 class="case-title" data-i18n="case5.title">
+                  Multilingual Comparative Legal RAG (Single-Agent vs. Multi-Agent)
+                </h3>
+                <p class="case-summary" data-i18n="case5.summary">
+                  End-to-end Retrieval-Augmented Generation and LLMOps benchmarking platform over 1,472 European civil law documents (Italy, Slovenia, Estonia), comparing Single-Agent ReAct against a Hierarchical Multi-Agent Supervisor with PII guardrails, XML injection fencing, and RAGAS evaluation.
+                </p>
+
+                <div class="case-pillars">
+                  <div class="pillar">
+                    <h4 data-i18n="case5.archLabel">Agentic Routing &amp; Corpus</h4>
+                    <p data-i18n="case5.arch">
+                      Metadata-injected ingestion of 679 statutory articles and 793 court cases into FAISS Flat L2 (384-d MiniLM), evaluating global ReAct routing against 3 domain-scoped worker agents (Qwen2.5-7B) exposed via Streamlit and FastAPI.
+                    </p>
+                  </div>
+                  <div class="pillar">
+                    <h4 data-i18n="case5.auditLabel">Guardrails &amp; Security Hardening</h4>
+                    <p data-i18n="case5.audit">
+                      Enforced ordered regex PII redaction (Tax IDs &amp; IBANs before phone numbers) on queries, responses &amp; atomic logs, XML boundaries (&lt;USER_QUERY&gt;, &lt;RETRIEVED_CONTEXT&gt;), word-boundary metadata routing, and path-safe lazy FastAPI loading (8/8 tests).
+                    </p>
+                  </div>
+                </div>
+
+                <div class="tag-row">
+                  <span>Python</span>
+                  <span>LangChain</span>
+                  <span>FAISS</span>
+                  <span>HuggingFace (Qwen 2.5)</span>
+                  <span>RAGAS</span>
+                  <span>FastAPI</span>
+                  <span>Streamlit</span>
+                  <span>Docker</span>
+                  <span>Pytest</span>
+                </div>
+
+                <div class="case-actions">
+                  <a
+                    class="btn btn-primary btn-sm"
+                    href="https://github.com/giusepperuggiero-sec/legal-comparative-rag-agents"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span data-i18n="case.viewRepo">View Repository</span>
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M7 17 17 7"/><path d="M7 7h10v10"/>
+                    </svg>
+                  </a>
+                  <button
+                    type="button"
+                    class="btn btn-ghost btn-sm zoom-trigger"
+                    data-src="assets/diagrams/legal-rag.svg"
+                    data-title="Multilingual Comparative Legal RAG &amp; Guardrail Architecture"
+                    data-repo="https://github.com/giusepperuggiero-sec/legal-comparative-rag-agents"
+                  >
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/>
+                    </svg>
+                    <span data-i18n="case.zoomDiagram">Zoom Diagram</span>
+                  </button>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                class="diagram-frame zoom-trigger"
+                data-src="assets/diagrams/legal-rag.svg"
+                data-title="Multilingual Comparative Legal RAG &amp; Guardrail Architecture"
+                data-repo="https://github.com/giusepperuggiero-sec/legal-comparative-rag-agents"
+                aria-label="Inspect Comparative Legal RAG Architecture Diagram"
+              >
+                <div class="diagram-bar">
+                  <span class="diagram-path">docs/diagrams/architecture.svg</span>
+                  <span class="diagram-zoom-chip" data-i18n="case.expandChip">Expand</span>
+                </div>
+                <img
+                  src="assets/diagrams/legal-rag.svg"
+                  alt="Multilingual Comparative Legal RAG Single vs Multi-Agent Pipeline"
+                  loading="lazy"
+                />
+              </button>
+            </div>
+
+            <details class="case-details">
+              <summary data-i18n="case5.detailsTitle">Verified 10-Query RAGAS Benchmark (Qwen2.5-72B Judge)</summary>
+              <div class="details-inner">
+                <div class="table-wrap">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th data-i18n="case5.tblArch">Architecture</th>
+                        <th data-i18n="case5.tblFaith">Faithfulness</th>
+                        <th data-i18n="case5.tblRel">Answer Relevancy</th>
+                        <th data-i18n="case5.tblPrec">Context Precision</th>
+                        <th data-i18n="case5.tblRec">Context Recall</th>
+                        <th data-i18n="case5.tblCorr">Answer Correctness</th>
+                        <th data-i18n="case5.tblMean">Overall Mean</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><code>Single-Agent ReAct</code></td>
+                        <td><strong>0.9013</strong></td>
+                        <td>0.5673</td>
+                        <td><strong>0.6589</strong></td>
+                        <td><strong>0.7500</strong></td>
+                        <td>0.5503</td>
+                        <td><strong>0.6856</strong> (+0.0404)</td>
+                      </tr>
+                      <tr>
+                        <td><code>Multi-Agent Supervisor</code></td>
+                        <td>0.6876</td>
+                        <td><strong>0.6707</strong></td>
+                        <td>0.5977</td>
+                        <td>0.7000</td>
+                        <td><strong>0.5700</strong></td>
+                        <td>0.6452</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p class="details-note" data-i18n="case5.note">
+                  Corpus: 1,472 validated JSON files (Italy: 811, Slovenia: 440, Estonia: 221). Verified with 8/8 pytest unit &amp; API boundary checks (test_rag_pipeline.py) covering regex word-boundary routing, ordered PII masking, atomic logging, and lazy FastAPI 503 guards.
+                </p>
+              </div>
+            </details>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -640,6 +928,10 @@
               <span>Docker</span>
               <span>Virtual Machines</span>
               <span>TCP/IP</span>
+              <span>Mininet / Open vSwitch</span>
+              <span>Ryu (OpenFlow 1.3)</span>
+              <span>Prometheus &amp; Grafana</span>
+              <span>D-ITG</span>
               <span>MQTT</span>
               <span>Arduino Portenta H7</span>
             </div>
@@ -669,8 +961,13 @@
               <span>SHAP (XAI)</span>
               <span>LIME</span>
               <span>Captum</span>
+              <span>LangChain</span>
+              <span>FAISS</span>
+              <span>RAGAS</span>
               <span>TinyML (Edge Impulse)</span>
               <span>Ollama (Local LLMs)</span>
+              <span>FastAPI</span>
+              <span>Streamlit</span>
               <span>Git</span>
               <span>LaTeX</span>
               <span>Argon ERP</span>
