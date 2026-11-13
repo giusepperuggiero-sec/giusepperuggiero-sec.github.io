@@ -152,15 +152,15 @@
     <text x="1006.0" y="684.0" text-anchor="middle" fill="#F8FAFC" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">GradientSHAP</text>
     <text x="1006.0" y="702.0" text-anchor="middle" fill="#FDA4AF" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="600">Expected Gradients Baseline</text>
   </g>
-<path d="M 742 426 C 786 426, 782 282, 864 282" fill="none" stroke="#A78BFA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-violet)" filter="url(#softGlow)"/>
-  <rect x="756.0" y="253.5" width="96.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#A78BFA" stroke-opacity="0.72" stroke-width="1"/>
-  <text x="804.0" y="267.5" text-anchor="middle" fill="#DDD6FE" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Forward Maps</text>
-<path d="M 742 638 C 808 638, 800 342, 864 342" fill="none" stroke="#10B981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-emerald)" filter="url(#softGlow)"/>
-<path d="M 742 252 C 810 252, 798 566, 864 566" fill="none" stroke="#F59E0B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-amber)" filter="url(#softGlow)"/>
-<path d="M 742 486 C 796 486, 798 610, 864 610" fill="none" stroke="#F43F5E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
-<path d="M 742 696 C 802 696, 804 654, 864 654" fill="none" stroke="#F43F5E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
-  <rect x="769.0" y="695.5" width="70.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.72" stroke-width="1"/>
-  <text x="804.0" y="709.5" text-anchor="middle" fill="#FDA4AF" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Backprop</text>
+<path d="M 742 252 L 746 252 Q 756 252, 756 262 L 756 556 Q 756 566, 766 566 L 864 566" fill="none" stroke="#F59E0B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-amber)" filter="url(#softGlow)"/>
+<path d="M 742 486 L 759 486 Q 769 486, 769 496 L 769 600 Q 769 610, 779 610 L 864 610" fill="none" stroke="#F43F5E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+<path d="M 742 696 L 772 696 Q 782 696, 782 686 L 782 664 Q 782 654, 792 654 L 864 654" fill="none" stroke="#F43F5E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+  <rect x="791.0" y="671.5" width="68.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="825.0" y="685.5" text-anchor="middle" fill="#FDA4AF" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Backprop</text>
+<path d="M 742 426 L 804 426 Q 814 426, 814 416 L 814 292 Q 814 282, 824 282 L 864 282" fill="none" stroke="#A78BFA" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-violet)" filter="url(#softGlow)"/>
+<path d="M 742 638 L 818 638 Q 828 638, 828 628 L 828 352 Q 828 342, 838 342 L 864 342" fill="none" stroke="#10B981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-emerald)" filter="url(#softGlow)"/>
+  <rect x="768.0" y="252.5" width="90.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#A78BFA" stroke-opacity="0.72" stroke-width="1"/>
+  <text x="813.0" y="266.5" text-anchor="middle" fill="#DDD6FE" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">Forward Maps</text>
 <g filter="url(#cardShadow)">
     <polygon points="1406,200 1538,312 1406,424 1274,312" fill="#140F28" fill-opacity="0.97" stroke="#A78BFA" stroke-opacity="0.86" stroke-width="1.8" stroke-linejoin="round"/>
     <circle cx="1406" cy="286" r="24.5" fill="#291E4D" fill-opacity="0.72" stroke="#A78BFA" stroke-opacity="0.4" stroke-width="1"/>

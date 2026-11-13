@@ -260,7 +260,11 @@
 <path d="M 1182 232 L 1308 232" fill="none" stroke="#F59E0B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-amber)" marker-start="url(#arr-amber)" filter="url(#softGlow)"/>
   <rect x="1203.5" y="197.5" width="83.0" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F59E0B" stroke-opacity="0.72" stroke-width="1"/>
   <text x="1245.0" y="211.5" text-anchor="middle" fill="#FCD34D" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">XML Prompt</text>
-<path d="M 1182 404 C 1236 404, 1252 276, 1308 276" fill="none" stroke="#F59E0B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-amber)" filter="url(#softGlow)"/>
+<path d="M 1182 404 L 1212 404" fill="none" stroke="#F59E0B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" filter="url(#softGlow)"/>
+<path d="M 1182 528 L 1212 528" fill="none" stroke="#F59E0B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" filter="url(#softGlow)"/>
+<path d="M 1182 652 L 1202 652 Q 1212 652, 1212 642 L 1212 286 Q 1212 276, 1222 276 L 1308 276" fill="none" stroke="#F59E0B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-amber)" filter="url(#softGlow)"/>
+<circle cx="1212" cy="404" r="3.2" fill="#F59E0B"/>
+<circle cx="1212" cy="528" r="3.2" fill="#F59E0B"/>
 <path d="M 510 710 L 510 764 Q 510 774, 520 774 L 1236 774 Q 1246 774, 1246 764 L 1246 442 Q 1246 432, 1256 432 L 1308 432" fill="none" stroke="#F43F5E" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
   <rect x="880.8" y="763.5" width="118.5" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.72" stroke-width="1"/>
   <rect x="884.8" y="767.0" width="18" height="14" rx="3" fill="#F43F5E"/>

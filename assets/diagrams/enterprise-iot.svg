@@ -63,9 +63,9 @@
     <text x="586" y="117.5" fill="#7DD3FC" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="10.6" font-weight="700" letter-spacing="0.8">CORPORATE LAN (192.168.137.0/24)</text>
   </g>
 <path d="M 702 355 C 745 355, 745 256, 804 256" fill="none" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.5" stroke-dasharray="4 4"/>
-<path d="M 642 422 L 642 618 L 760 618" fill="none" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.5" stroke-dasharray="4 4"/>
-<path d="M 642 422 C 642 752, 1148 752, 1148 716" fill="none" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.5" stroke-dasharray="4 4"/>
-<path d="M 642 422 C 642 770, 1438 770, 1438 564" fill="none" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.5" stroke-dasharray="4 4"/>
+<path d="M 642 422 L 642 774 Q 642 784, 652 784 L 1428 784 Q 1438 784, 1438 774 L 1438 564" fill="none" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.5" stroke-dasharray="4 4"/>
+<path d="M 642 618 L 760 618" fill="none" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.5" stroke-dasharray="4 4"/>
+<path d="M 1068 784 L 1068 660" fill="none" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.5" stroke-dasharray="4 4"/>
 <g filter="url(#cardShadow)">
     <rect x="52" y="244" width="200" height="220" rx="14" fill="#1C0C16" fill-opacity="0.96" stroke="#F43F5E" stroke-opacity="0.86" stroke-width="1.6"/>
     <rect x="53.5" y="245.5" width="197" height="217" rx="12.5" fill="none" stroke="#FDA4AF" stroke-opacity="0.08" stroke-width="1"/>
@@ -150,7 +150,8 @@
   <rect x="1085.0" y="425.0" width="18" height="14" rx="3" fill="#F43F5E"/>
   <text x="1094.0" y="435.0" text-anchor="middle" fill="#030405" font-family="'JetBrains Mono', 'Cascadia Mono', Consolas, monospace" font-size="9.5" font-weight="800">3</text>
   <text x="1108.0" y="435.5" fill="#FDA4AF" font-family="'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="10.6" font-weight="600">ARP Spoof &amp; MitM</text>
-<path d="M 1094 350 C 1072 418, 1004 470, 962 514" fill="none" stroke="#F43F5E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+<path d="M 1150 470 L 972 470 Q 962 470, 962 480 L 962 514" fill="none" stroke="#F43F5E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-red)" filter="url(#softGlow)"/>
+<circle cx="1150" cy="470" r="3.2" fill="#F43F5E"/>
 <path d="M 1012 614 L 1040 614" fill="none" stroke="#38BDF8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#arr-cyan)" marker-start="url(#arr-cyan)" filter="url(#softGlow)"/>
 <path d="M 1212 252 C 1380 252, 1437 284, 1437 346" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-cyan)" filter="url(#softGlow)"/>
   <rect x="1299.8" y="241.5" width="128.5" height="21" rx="5.5" fill="#050608" fill-opacity="0.96" stroke="#38BDF8" stroke-opacity="0.72" stroke-width="1"/>
